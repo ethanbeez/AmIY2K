@@ -1,0 +1,1 @@
+Around the World's game for the Global Game Jam 2025, operating under Gay Gaming Professionals!
