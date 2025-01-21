@@ -17,6 +17,12 @@ public class SendEmail : MonoBehaviour
         {
             button.onClick.AddListener(OnSubmitButtonPressed);
         }
+
+        // Add a listener to the new button's onClick event to reset emailCount
+        if (writeEmailScript != null && writeEmailScript.newButton != null)
+        {
+            writeEmailScript.newButton.onClick.AddListener(ResetEmailCount);
+        }
     }
 
     void Update()
@@ -33,5 +39,12 @@ public class SendEmail : MonoBehaviour
         // Increment the email count and log to the console
         emailCount++;
         Debug.Log($"You sent {emailCount} email(s).");
+    }
+
+    private void ResetEmailCount()
+    {
+        // Reset the email count and log the reset
+        emailCount = 0;
+        Debug.Log("Email count has been reset to 0.");
     }
 }
