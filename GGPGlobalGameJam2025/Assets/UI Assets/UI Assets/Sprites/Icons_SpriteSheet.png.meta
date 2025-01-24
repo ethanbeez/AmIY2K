@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 10b9215adf67284449a539e979e287ae
+guid: 8a3a33cd613abde448c9ef1a3f0e0228
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6029873908133997514
-    second: ProgrammerArt_Bubble_0
+      213: -6894148542040600790
+    second: Icons_SpriteSheet_0
+  - first:
+      213: -2432635387153162554
+    second: Icons_SpriteSheet_1
+  - first:
+      213: -764132263926446058
+    second: Icons_SpriteSheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ProgrammerArt_Bubble_0
+      name: Icons_SpriteSheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 200
-        height: 199
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acb29be2f5a6ea350800000000000000
-      internalID: 6029873908133997514
+      spriteID: a2f84e28d601350a0800000000000000
+      internalID: -6894148542040600790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ced0b8010b8d3ed0800000000000000
+      internalID: -2432635387153162554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618cf3721c14565f0800000000000000
+      internalID: -764132263926446058
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bf432708aa0c73a45954534052130ff3
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ProgrammerArt_Bubble_0: 6029873908133997514
+      Icons_SpriteSheet_0: -6894148542040600790
+      Icons_SpriteSheet_1: -2432635387153162554
+      Icons_SpriteSheet_2: -764132263926446058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

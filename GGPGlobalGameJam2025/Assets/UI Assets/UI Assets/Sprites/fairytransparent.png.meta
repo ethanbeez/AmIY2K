@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 10b9215adf67284449a539e979e287ae
+guid: d3f2955997974f74e831c8f66b355ae4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6029873908133997514
-    second: ProgrammerArt_Bubble_0
+      213: -4999954142306859017
+    second: fairytransparent_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ProgrammerArt_Bubble_0
+      name: fairytransparent_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 200
-        height: 199
+        x: 41
+        y: 39
+        width: 788
+        height: 944
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acb29be2f5a6ea350800000000000000
-      internalID: 6029873908133997514
+      spriteID: 7f78e8ec2389c9ab0800000000000000
+      internalID: -4999954142306859017
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ProgrammerArt_Bubble_0: 6029873908133997514
+      fairytransparent_0: -4999954142306859017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
