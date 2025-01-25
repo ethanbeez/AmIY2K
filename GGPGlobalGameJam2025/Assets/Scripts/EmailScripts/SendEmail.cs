@@ -4,12 +4,16 @@ using UnityEngine.UI;
 public class SendEmail : MonoBehaviour
 {
     private WriteEmail writeEmailScript; // Reference to the writeEmail script
-    private int emailCount = 0;       // Tracks the number of emails sent
+    private SoulManager soulManager;    // Reference to the SoulManager script
+    private int emailCount = 0;         // Tracks the number of emails sent
 
     void Start()
     {
         // Find the WriteEmail script in the scene
         writeEmailScript = FindObjectOfType<WriteEmail>();
+
+        // Find the SoulManager script in the scene
+        soulManager = FindObjectOfType<SoulManager>();
 
         // Add a listener to the button's onClick event
         Button button = GetComponent<Button>();
@@ -36,9 +40,12 @@ public class SendEmail : MonoBehaviour
 
     private void OnSubmitButtonPressed()
     {
-        // Increment the email count and log to the console
+        // Increment the email count
         emailCount++;
         Debug.Log($"You sent {emailCount} email(s).");
+
+        // Call the effectiveness function
+        Effectiveness();
     }
 
     private void ResetEmailCount()
@@ -46,5 +53,20 @@ public class SendEmail : MonoBehaviour
         // Reset the email count and log the reset
         emailCount = 0;
         Debug.Log("Email count has been reset to 0.");
+    }
+
+    private void Effectiveness()
+    {
+        if (soulManager == null)
+        {
+            Debug.LogError("SoulManager not found in the scene!");
+            return;
+        }
+
+        // Call HandleEmailSent on SoulManager to handle the captured souls
+        soulManager.HandleEmailSent(emailCount);
+
+        // Log soul capture for debugging
+        Debug.Log($"Effectiveness calculated for email count {emailCount}.");
     }
 }
