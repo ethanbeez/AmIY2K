@@ -72,4 +72,10 @@ public class WriteEmail : MonoBehaviour
                 submitButton.interactable = false;
         }
     }
+
+    public void ResetState() 
+    {
+        emailTextBox.text = "";
+        currentLetterIndex = 0;
+    }
 }

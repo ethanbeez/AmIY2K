@@ -8,11 +8,13 @@ public class CountdownTimer : MonoBehaviour {
     [SerializeField] TextMeshPro timerTextComponent;
 
     private float timeLeft;
-    [SerializeField] private bool timerActive;
+    [SerializeField] private bool timerActive = false;
+
+    public delegate void TimerFinishedHandler(object sender);
+    public static event TimerFinishedHandler TimerFinished;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
-        timerActive = false;
         timeLeft = gameLengthMinutes * 60;
     }
 
@@ -22,15 +24,30 @@ public class CountdownTimer : MonoBehaviour {
             timeLeft -= Time.deltaTime * gameSpeedMultiplier;
             UpdateTimerDisplay();
         }
+        if (timeLeft <= 0) {
+            TimerFinished?.Invoke(this);
+        }
     }
 
     private void UpdateTimerDisplay() {
+        if (timeLeft < 0) {
+            timeLeft = 0;
+        }
         float minutesLeft = Mathf.FloorToInt(timeLeft / 60);
         float secondsLeft = Mathf.FloorToInt(timeLeft % 60);
         timerTextComponent.text = string.Format("{0:00}:{1:00}", minutesLeft, secondsLeft);
     }
 
-    public void Activate() { 
+    public void Activate() {
         timerActive = true;
+    }
+
+    public void Deactivate() {
+        timerActive = false;
+    }
+
+    public void ResetState() {
+        timeLeft = gameLengthMinutes * 60;
+        gameSpeedMultiplier = 3;
     }
 }

@@ -17,6 +17,7 @@ public class SoulManager : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI soulsTotalCounter;
 
     private Dictionary<int, GameObject> spawnedBubbles;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         soulsStored = 0;
@@ -34,6 +35,17 @@ public class SoulManager : MonoBehaviour {
         HandleSpawnedBubbles();
     }
 
+    public void ResetState() {
+        soulsStored = 0;
+        totalSouls = 0;
+        capturedSouls = 0;
+        foreach (GameObject spawnedBubble in spawnedBubbles.Values) {
+            Destroy(spawnedBubble);
+        }
+        spawnedBubbles.Clear();
+        Bubble.nextBubbleID = 0;
+        UpdateSoulDisplay();
+    }
 
     /// <summary>
     /// Handle one email being sent, updating the number of captured souls depending on the overall count of emails sent.
@@ -53,7 +65,7 @@ public class SoulManager : MonoBehaviour {
             returnRate = 0.0313f;
         }
         capturedSouls += returnRate;
-        Debug.Log($"Captured {capturedSouls} souls!");
+        Debug.Log($"Captured {capturedSouls} souls! {totalSouls} total souls right now!");
     }
 
     public void CollectSouls() {
@@ -94,8 +106,11 @@ public class SoulManager : MonoBehaviour {
         return new(x, y, 1);
     }
 
-    public int GetSpawnedBubbleCount() //Getting spawned bubbles for MusicManager
-    {
+    public int GetSpawnedBubbleCount() {
         return spawnedBubbles.Count;
+    }
+
+    public int GetTotalSouls() { 
+        return totalSouls;
     }
 }

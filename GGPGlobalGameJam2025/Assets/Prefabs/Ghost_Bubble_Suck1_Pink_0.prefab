@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b45bd7d95f8584088b1b97d6d6cd60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  duration: 2
   image: {fileID: 1810429938261502882}
   sprites:
   - {fileID: 1522607506655802005, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}

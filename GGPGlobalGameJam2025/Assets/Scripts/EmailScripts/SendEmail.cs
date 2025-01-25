@@ -8,6 +8,7 @@ public class SendEmail : MonoBehaviour
     private WriteEmail writeEmailScript; // Reference to the writeEmail script
     private SoulManager soulManager;    // Reference to the SoulManager script
     private int emailCount = 0;         // Tracks the number of emails sent
+    private int totalEmailsSent = 0; // Tracks the total number of emails ever sent (added by Ethan 1/25)
     [Header("UI Elements")]
     public TextMeshProUGUI countTextBox; // The text box where the number of sent emails is written.
 
@@ -48,6 +49,7 @@ public class SendEmail : MonoBehaviour
     {
         // Increment the email count
         emailCount++;
+        totalEmailsSent++;
         UpdateEmailCountDisplay();
         Debug.Log($"You sent {emailCount} email(s).");
         countTextBox.text = $"{emailCount} Emails Sent";
@@ -89,5 +91,16 @@ public class SendEmail : MonoBehaviour
 
         // Log soul capture for debugging
         Debug.Log($"Effectiveness calculated for email count {emailCount}.");
+    }
+
+    public int GetTotalEmailsSent() {
+        return totalEmailsSent;
+    }
+
+    public void ResetState() 
+    {
+        emailCount = 0;
+        totalEmailsSent = 0;
+        countTextBox.text = "0 Emails Sent";
     }
 }

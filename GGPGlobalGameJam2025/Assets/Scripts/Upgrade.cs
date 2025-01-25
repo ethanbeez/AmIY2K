@@ -5,10 +5,11 @@ public class Upgrade : MonoBehaviour
 {
     public GameObject upgradePrefab; // Reference to the prefab to display
     public Button upgradeButton; // Reference to the Upgrade button
+    public Button minimizeButton; // Reference to the Minimize button
 
     void Start()
     {
-        // Ensure the button has an onClick listener
+        // Ensure the buttons have an onClick listener
         if (upgradeButton != null)
         {
             upgradeButton.onClick.AddListener(ToggleUpgrade);
@@ -16,6 +17,15 @@ public class Upgrade : MonoBehaviour
         else
         {
             Debug.LogError("Upgrade button is not assigned!");
+        }
+
+        if (upgradeButton != null) 
+        {
+            minimizeButton.onClick.AddListener(ToggleUpgrade);
+        } 
+        else 
+        {
+            Debug.LogError("Minimize button is not assigned!");
         }
 
         // Ensure the prefab is initially disabled
@@ -29,7 +39,7 @@ public class Upgrade : MonoBehaviour
         }
     }
 
-    private void ToggleUpgrade()
+    public void ToggleUpgrade()
     {
         if (upgradePrefab != null)
         {
