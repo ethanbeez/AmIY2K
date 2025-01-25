@@ -32,6 +32,7 @@ public class SoulManager : MonoBehaviour {
         HandleSpawnedBubbles();
     }
 
+
     /// <summary>
     /// Handle one email being sent, updating the number of captured souls depending on the overall count of emails sent.
     /// Note that here, count does not mean all emails ever sent by the player; it is referring to the number of times the
@@ -87,5 +88,10 @@ public class SoulManager : MonoBehaviour {
         float x = Random.Range(-rect.width / 2, rect.width / 2);
         float y = Random.Range(-rect.height / 2, rect.height / 2);
         return new(x, y, 1);
+    }
+
+    public int GetSpawnedBubbleCount() //Getting spawned bubbles for MusicManager
+    {
+        return spawnedBubbles.Count;
     }
 }
