@@ -3,11 +3,12 @@ using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour {
     [SerializeField] private int gameLengthMinutes = 30;
+    [SerializeField] private float gameSpeedMultiplier = 3;
     [Header("Scene Hooks")]
-    [SerializeField] TextMeshProUGUI timerTextComponent;
+    [SerializeField] TextMeshPro timerTextComponent;
 
     private float timeLeft;
-    private bool timerActive;
+    [SerializeField] private bool timerActive;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -18,7 +19,7 @@ public class CountdownTimer : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (timerActive && timeLeft > 0) { 
-            timeLeft -= Time.deltaTime;
+            timeLeft -= Time.deltaTime * gameSpeedMultiplier;
             UpdateTimerDisplay();
         }
     }

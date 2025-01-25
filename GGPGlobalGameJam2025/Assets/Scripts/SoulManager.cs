@@ -21,6 +21,7 @@ public class SoulManager : MonoBehaviour {
     void Start() {
         soulsStored = 0;
         spawnedBubbles = new();
+        UpdateSoulDisplay();
     }
 
     // Update is called once per frame
