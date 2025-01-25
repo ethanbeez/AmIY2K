@@ -2359,7 +2359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 905661d2aedb9b143a42178bb554eba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onboardingQuips: []
+  onboardingQuips:
+  - 
 --- !u!1 &1326448359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3291,9 +3292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e48cb959629c4429aacae5315cad00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soulsStored: 0
-  totalSouls: 0
-  capturedSouls: 0
+  soulsStored: 2
+  totalSouls: 5
+  capturedSouls: 3
   bubblePrefab: {fileID: 847536476907507264, guid: 0cf714773c7ffc14891fc922caf1ed54, type: 3}
   bubbleContainer: {fileID: 695155295}
   soulsStoredCounter: {fileID: 1326448361}
