@@ -14,6 +14,7 @@ public class SoulManager : MonoBehaviour {
     [SerializeField] private GameObject bubblePrefab;
     [SerializeField] private GameObject bubbleContainer;
     [SerializeField] private TextMeshProUGUI soulsStoredCounter;
+    [SerializeField] private TextMeshProUGUI soulsTotalCounter;
 
     private Dictionary<int, GameObject> spawnedBubbles;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -50,6 +51,7 @@ public class SoulManager : MonoBehaviour {
             returnRate = 0.0313f;
         }
         capturedSouls += returnRate;
+        Debug.Log($"Captured {capturedSouls} souls!");
     }
 
     public void CollectSouls() {
@@ -65,7 +67,8 @@ public class SoulManager : MonoBehaviour {
     }
 
     public void UpdateSoulDisplay() {
-        soulsStoredCounter.text = soulsStored.ToString();
+        soulsStoredCounter.text = $"{soulsStored} Souls Available To Spend";
+        soulsStoredCounter.text = $"{soulsTotalCounter} Total Souls Collected";
     }
 
     private void HandleSpawnedBubbles() {
