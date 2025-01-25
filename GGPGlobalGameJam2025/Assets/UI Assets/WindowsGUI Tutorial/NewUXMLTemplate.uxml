@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="Root_VisualElement" style="flex-grow: 1; align-items: stretch;">
+        <engine:VisualElement name="Parent_VE" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Scenes/Glitter%20BG.jpg?fileID=-3419181958315888056&amp;guid=91f864287c2176042b9a8a46c1c728e8&amp;type=3#Glitter BG_0&quot;); background-repeat: round round; background-size: 50% 50%;">
+            <engine:VisualElement name="VisualElement" style="flex-grow: 0.5; flex-shrink: 0.5; background-image: url(&quot;project://database/Assets/RetroWindowsGUI/RetroWindowsGUI/Window_Header.png?fileID=-6763024814601447701&amp;guid=44846f827a96e3a429b0ca96823a5ce9&amp;type=3#Window_Header_0&quot;); background-repeat: round round; background-size: 10% 10%;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
