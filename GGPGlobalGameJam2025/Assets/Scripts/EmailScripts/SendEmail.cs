@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; 
 
 public class SendEmail : MonoBehaviour
 {
     private WriteEmail writeEmailScript; // Reference to the writeEmail script
     private SoulManager soulManager;    // Reference to the SoulManager script
     private int emailCount = 0;         // Tracks the number of emails sent
+    public TextMeshProUGUI emailCountText;
 
     void Start()
     {
@@ -27,6 +29,8 @@ public class SendEmail : MonoBehaviour
         {
             writeEmailScript.newButton.onClick.AddListener(ResetEmailCount);
         }
+    
+        UpdateEmailCountDisplay();
     }
 
     void Update()
@@ -42,6 +46,7 @@ public class SendEmail : MonoBehaviour
     {
         // Increment the email count
         emailCount++;
+        UpdateEmailCountDisplay();
         Debug.Log($"You sent {emailCount} email(s).");
 
         // Call the effectiveness function
@@ -52,7 +57,20 @@ public class SendEmail : MonoBehaviour
     {
         // Reset the email count and log the reset
         emailCount = 0;
-        Debug.Log("Email count has been reset to 0.");
+        UpdateEmailCountDisplay();
+    }
+
+    private void UpdateEmailCountDisplay()
+    {
+        // Update the TMPro text box with the current email count
+        if (emailCountText != null)
+        {
+            emailCountText.text = $"{emailCount} Email(s) Sent";
+        }
+        else
+        {
+            Debug.LogWarning("EmailCountText reference is missing!");
+        }
     }
 
     private void Effectiveness()
