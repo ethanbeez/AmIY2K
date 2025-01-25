@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Windows_Slider_Background_0: -5177416825651818589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

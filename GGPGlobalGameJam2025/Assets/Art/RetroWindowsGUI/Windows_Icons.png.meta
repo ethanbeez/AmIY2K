@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Windows_Icons_0: -5421709028232957321
+      Windows_Icons_1: -265213787064888513
+      Windows_Icons_2: -357089265500988452
+      Windows_Icons_3: 2784325872354485142
+      Windows_Icons_4: -8692709947429568350
+      Windows_Icons_5: -3513562678931714041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

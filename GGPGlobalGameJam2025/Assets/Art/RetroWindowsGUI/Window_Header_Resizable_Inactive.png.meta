@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Window_Header_Resizable_Inactive_0: 6167320348928909181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
