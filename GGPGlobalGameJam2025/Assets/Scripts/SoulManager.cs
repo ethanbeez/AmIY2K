@@ -69,7 +69,7 @@ public class SoulManager : MonoBehaviour {
 
     public void UpdateSoulDisplay() {
         soulsStoredCounter.text = $"{soulsStored} Souls Available To Spend";
-        soulsStoredCounter.text = $"{soulsTotalCounter} Total Souls Collected";
+        soulsTotalCounter.text = $"{totalSouls} Total Souls Collected";
     }
 
     private void HandleSpawnedBubbles() {
