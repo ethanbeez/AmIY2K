@@ -125,12 +125,12 @@ TextureImporter:
       name: Fairy_Victory_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 30
-        width: 767
-        height: 952
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Fairy_Victory_1
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 30
-        width: 767
-        height: 952
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -169,12 +169,12 @@ TextureImporter:
       name: Fairy_Victory_2
       rect:
         serializedVersion: 2
-        x: 2067
-        y: 48
-        width: 862
-        height: 947
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Fairy_Victory_3
       rect:
         serializedVersion: 2
-        x: 3067
-        y: 42
-        width: 862
-        height: 947
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de17229db61dcf94fbb3f8f83db0ffd2
     internalID: 0
     vertices: []
     indices: 
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fairy_Victory_0: -6766119758764800817
+      Fairy_Victory_1: 2927562259025186246
+      Fairy_Victory_2: 6068971683583456384
+      Fairy_Victory_3: 310915809128306719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

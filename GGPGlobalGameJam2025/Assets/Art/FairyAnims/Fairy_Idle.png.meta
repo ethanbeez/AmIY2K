@@ -125,12 +125,12 @@ TextureImporter:
       name: Fairy_Idle_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 17
-        width: 812
-        height: 962
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Fairy_Idle_1
       rect:
         serializedVersion: 2
-        x: 1048
-        y: 17
-        width: 812
-        height: 962
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -169,12 +169,12 @@ TextureImporter:
       name: Fairy_Idle_2
       rect:
         serializedVersion: 2
-        x: 2212
-        y: 19
-        width: 577
-        height: 962
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Fairy_Idle_3
       rect:
         serializedVersion: 2
-        x: 3212
-        y: 19
-        width: 577
-        height: 962
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 91ad5d355db992c4aa7d36d2e15155a7
     internalID: 0
     vertices: []
     indices: 
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fairy_Idle_0: -5468960565006146794
+      Fairy_Idle_1: 8378295968600706385
+      Fairy_Idle_2: 8225252849492803178
+      Fairy_Idle_3: -1966174626787877144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
