@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 6d95f4210d6c707418eeb9afa1619fb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6264852986357267806
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_0
+  - first:
+      213: -2844601924540038671
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_1
+  - first:
+      213: -7772310750867880651
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_2
+  - first:
+      213: 2081436784135679984
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_3
+  - first:
+      213: -7167448250215480935
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_4
+  - first:
+      213: -1901917832447455652
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_5
+  - first:
+      213: 6303865992798982187
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_6
+  - first:
+      213: -1755504343358995195
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_7
+  - first:
+      213: 7073804018904113418
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_8
+  - first:
+      213: 3996770939974563398
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_9
+  - first:
+      213: -8710705962724080966
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_10
+  - first:
+      213: -6914569584462965097
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_11
+  - first:
+      213: -2425346337186390563
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_12
+  - first:
+      213: 4113270481614709929
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_13
+  - first:
+      213: -2866755496406447568
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_14
+  - first:
+      213: -6108981777520725295
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_15
+  - first:
+      213: -3410692933357605250
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_16
+  - first:
+      213: 5945892600259444617
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_17
+  - first:
+      213: -493571611871839287
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_18
+  - first:
+      213: 26013999047974498
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_19
+  - first:
+      213: 4189675212017071951
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_20
+  - first:
+      213: 1054283814787282761
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_21
+  - first:
+      213: -2154235475714984453
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_22
+  - first:
+      213: 598603582316227683
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_23
+  - first:
+      213: -9207772179511399315
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_24
+  - first:
+      213: -625489430993803242
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_25
+  - first:
+      213: -7241010049786419867
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_26
+  - first:
+      213: -1726384675436776802
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_27
+  - first:
+      213: -3216695651840835969
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_28
+  - first:
+      213: -1650785431158936333
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_29
+  - first:
+      213: -5161279744522812175
+    second: Ghost_Bubble_Swirl_DoubleShine_Yellow_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dbed5399a31f650800000000000000
+      internalID: 6264852986357267806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_1
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f10668fe91f588d0800000000000000
+      internalID: -2844601924540038671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_2
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53502923d84332490800000000000000
+      internalID: -7772310750867880651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_3
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffa6dc2abfb2ec10800000000000000
+      internalID: 2081436784135679984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_4
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99149eb8acb188c90800000000000000
+      internalID: -7167448250215480935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_5
+      rect:
+        serializedVersion: 2
+        x: 5004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e0df4eec70b95e0800000000000000
+      internalID: -1901917832447455652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_6
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20d27c98b4db7750800000000000000
+      internalID: 6303865992798982187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_7
+      rect:
+        serializedVersion: 2
+        x: 7004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5058e6cc91233a7e0800000000000000
+      internalID: -1755504343358995195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_8
+      rect:
+        serializedVersion: 2
+        x: 8004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01a28dc6433b2260800000000000000
+      internalID: 7073804018904113418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_9
+      rect:
+        serializedVersion: 2
+        x: 9004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646b9cd7ef1677730800000000000000
+      internalID: 3996770939974563398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_10
+      rect:
+        serializedVersion: 2
+        x: 10004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab244f4041b5d1780800000000000000
+      internalID: -8710705962724080966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_11
+      rect:
+        serializedVersion: 2
+        x: 11004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7965d5f09938a00a0800000000000000
+      internalID: -6914569584462965097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_12
+      rect:
+        serializedVersion: 2
+        x: 12004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddd5ba3b50775ed0800000000000000
+      internalID: -2425346337186390563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_13
+      rect:
+        serializedVersion: 2
+        x: 13004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4aeb1c5b5451930800000000000000
+      internalID: 4113270481614709929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_14
+      rect:
+        serializedVersion: 2
+        x: 14004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a8bc2901d3738d0800000000000000
+      internalID: -2866755496406447568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_15
+      rect:
+        serializedVersion: 2
+        x: 15004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2fa8ba079883ba0800000000000000
+      internalID: -6108981777520725295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_16
+      rect:
+        serializedVersion: 2
+        x: 16004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ee84509d8caa0d0800000000000000
+      internalID: -3410692933357605250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_17
+      rect:
+        serializedVersion: 2
+        x: 17004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f761731dd048250800000000000000
+      internalID: 5945892600259444617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_18
+      rect:
+        serializedVersion: 2
+        x: 18004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb792beb3b7629f0800000000000000
+      internalID: -493571611871839287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_19
+      rect:
+        serializedVersion: 2
+        x: 19004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e1174289b6c5000800000000000000
+      internalID: 26013999047974498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_20
+      rect:
+        serializedVersion: 2
+        x: 20004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4779805867b42a30800000000000000
+      internalID: 4189675212017071951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_21
+      rect:
+        serializedVersion: 2
+        x: 21004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947f6d03b8191ae00800000000000000
+      internalID: 1054283814787282761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_22
+      rect:
+        serializedVersion: 2
+        x: 22004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5b67b9f3e9a12e0800000000000000
+      internalID: -2154235475714984453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_23
+      rect:
+        serializedVersion: 2
+        x: 23004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c2c3d59caae4800800000000000000
+      internalID: 598603582316227683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_24
+      rect:
+        serializedVersion: 2
+        x: 24004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6caf73dcfb673080800000000000000
+      internalID: -9207772179511399315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_25
+      rect:
+        serializedVersion: 2
+        x: 25004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6186ade2da0d157f0800000000000000
+      internalID: -625489430993803242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_26
+      rect:
+        serializedVersion: 2
+        x: 26004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565627769b3c28b90800000000000000
+      internalID: -7241010049786419867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_27
+      rect:
+        serializedVersion: 2
+        x: 27004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92b9e2d846aa08e0800000000000000
+      internalID: -1726384675436776802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_28
+      rect:
+        serializedVersion: 2
+        x: 28004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ebb71f8500c53d0800000000000000
+      internalID: -3216695651840835969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_29
+      rect:
+        serializedVersion: 2
+        x: 29004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fca167856b3719e0800000000000000
+      internalID: -1650785431158936333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_DoubleShine_Yellow_30
+      rect:
+        serializedVersion: 2
+        x: 30004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f48c410b637f58b0800000000000000
+      internalID: -5161279744522812175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7878658340724244402}
   - component: {fileID: 1810429938261502882}
   m_Layer: 5
-  m_Name: Ghost_Bubble_Suck1_Pink_0
+  m_Name: Bubble_Pink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,24 +194,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b45bd7d95f8584088b1b97d6d6cd60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 2
+  swirlLikelihood: 0.2
+  emptyDuration: 2
+  swirlDuration: 2
+  suckDuration: 4
   image: {fileID: 1810429938261502882}
-  sprites:
-  - {fileID: 1522607506655802005, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -8015179262316378773, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: 2746422226143342926, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -5036197364509387161, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: 4066763234247436612, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -5090264506015277480, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -2403966019092218633, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -7806883952557704557, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -1512666001020771366, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -2954650113545622437, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: 9055558396766982952, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -7193493328896323855, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -7739703978040398543, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -4464104004377940351, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  - {fileID: -5572703766056137557, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  emptySprites:
+  - {fileID: 7355278968583312799, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
+  - {fileID: 3962019644498345737, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
+  - {fileID: -8006678892234699257, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
+  - {fileID: 3202813548362077138, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
+  swirlSprites:
+  - {fileID: 8692267673529124262, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 3027982766527472055, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 1826720692895907381, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 7484776617725966029, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 3465894509577571630, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -6277908646919590900, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 861436227083201815, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -233133748523620051, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -4468180517139788362, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -9107550894810570513, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -6600173779081342223, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -6288501780479502290, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -4397070616024921132, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 2701872319793143112, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -5763932243016825844, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -2407037071596630336, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -5072890676265130367, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -6159331355804444517, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 5897858800031391991, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 6439734899829040169, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 2579947540604315684, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 3730574399546084628, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -4555372266603086571, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -6412428130868755525, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -2429475497622481330, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 3010848651361644603, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -447229602306957009, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: 1850387872596830331, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -4764294081659609254, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -1373769428968126592, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  - {fileID: -5914941702147827350, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
+  suckedUpVariant1Sprites: []
+  suckedUpVariant2Sprites: []
 --- !u!222 &7878658340724244402
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -240,7 +266,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1522607506655802005, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  m_Sprite: {fileID: 7355278968583312799, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
