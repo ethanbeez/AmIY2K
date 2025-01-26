@@ -1068,36 +1068,47 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: c1eed447a5eac5b42a2d75342a8b43c9, type: 3}
     name: SendEmail
     source: {fileID: 0}
+    volume: 1
   - clip: {fileID: 8300000, guid: 05b7af8cf5d198144ab35d89b80a50fc, type: 3}
     name: CollectSouls
     source: {fileID: 0}
+    volume: 1
   - clip: {fileID: 8300000, guid: 2d38d3e3dbb4c0f4485d3685fd6da262, type: 3}
     name: StartGame
     source: {fileID: 0}
+    volume: 1
   - clip: {fileID: 8300000, guid: d3cacba572c83b94696597096c68f447, type: 3}
     name: EndGame
     source: {fileID: 0}
+    volume: 1
   - clip: {fileID: 8300000, guid: b6df38030b1cd394e9b0d92d5d7a1a07, type: 3}
     name: FinalCountdownBeep
     source: {fileID: 0}
+    volume: 1
   - clip: {fileID: 8300000, guid: b6786624e5fe9b64bac80866ba586f46, type: 3}
     name: Purchase
     source: {fileID: 0}
+    volume: 1
   - clip: {fileID: 8300000, guid: d3ab970394e6b594f875c0b2ad4473c6, type: 3}
     name: Fairy1
     source: {fileID: 0}
+    volume: 0.5
   - clip: {fileID: 8300000, guid: f1abb7ad51137354882d4f5789981ebb, type: 3}
     name: Fairy2
     source: {fileID: 0}
+    volume: 0.5
   - clip: {fileID: 8300000, guid: b844d6c357cd012429e7ca4a20f4bd5e, type: 3}
     name: Fairy3
     source: {fileID: 0}
+    volume: 0.5
   - clip: {fileID: 8300000, guid: accf003fc39197749b53a6e48dd8dded, type: 3}
     name: Fairy4
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: b844d6c357cd012429e7ca4a20f4bd5e, type: 3}
-    name: Fairy3
+    volume: 0.5
+  - clip: {fileID: 8300000, guid: 0cd49a5e08a7d0b4988ec49d01810264, type: 3}
+    name: Fairy5
     source: {fileID: 0}
+    volume: 0.5
 --- !u!4 &326685067
 Transform:
   m_ObjectHideFlags: 0

@@ -1,4 +1,4 @@
-using NUnit.Framework;
+
 using System.Collections.Generic;
 using UnityEngine;
 using static Unity.VisualScripting.Member;
@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour {
         foreach (SoundClip soundClip in soundClips) {
             soundClip.source = gameObject.AddComponent<AudioSource>();
             soundClip.source.clip = soundClip.clip;
+            soundClip.source.volume = soundClip.volume;
         }
     }
 
@@ -32,4 +33,5 @@ public class SoundClip {
     public AudioClip clip;
     public string name;
     public AudioSource source;
+    [Range(0, 1)] public float volume = 1.0f;
 }
