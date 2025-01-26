@@ -15,6 +15,7 @@ public class SoulManager : MonoBehaviour {
     [SerializeField] private GameObject bubbleContainer;
     [SerializeField] private TextMeshProUGUI soulsStoredCounter;
     [SerializeField] private TextMeshProUGUI soulsTotalCounter;
+    [SerializeField] private AudioManager audioManager;
 
     private Dictionary<int, GameObject> spawnedBubbles;
     
@@ -78,6 +79,7 @@ public class SoulManager : MonoBehaviour {
         capturedSouls = 0;
         spawnedBubbles.Clear();
         UpdateSoulDisplay();
+        audioManager.PlaySoundClip("CollectSouls");
     }
 
     public void UpdateSoulDisplay() {

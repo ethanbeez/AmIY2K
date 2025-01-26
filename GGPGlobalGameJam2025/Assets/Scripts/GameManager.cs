@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private GameObject lame;
     // This refers to the GameObject containing the onboard UI.
     [SerializeField] private GameObject onboardUI;
+    [SerializeField] private AudioManager audioManager;
 
     [Header("Text")]
     [SerializeField] private string endGameLameText = "C'mon, it's almost like you don’t want to watch the world burn.";
@@ -95,6 +96,8 @@ public class GameManager : MonoBehaviour {
 
     public void EndGame() {
         ShowEndScreenUI();
+        countdownTimer.Deactivate();
+        audioManager.PlaySoundClip("EndGame");
     }
 
     private void SetEndScreenScoreValues() {
@@ -128,6 +131,7 @@ public class GameManager : MonoBehaviour {
             InitializeOnboard();
         }
         countdownTimer.Activate();
+        audioManager.PlaySoundClip("StartGame");
     }
 
     private void InitializeOnboard() { 

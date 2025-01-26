@@ -9,6 +9,7 @@ public class SendEmail : MonoBehaviour
     private SoulManager soulManager;    // Reference to the SoulManager script
     private int emailCount = 0;         // Tracks the number of emails sent
     private int totalEmailsSent = 0; // Tracks the total number of emails ever sent (added by Ethan 1/25)
+    [SerializeField] private AudioManager audioManager; // Added by Ethan 1/25
     [Header("UI Elements")]
     public TextMeshProUGUI countTextBox; // The text box where the number of sent emails is written.
 
@@ -55,6 +56,7 @@ public class SendEmail : MonoBehaviour
         countTextBox.text = $"{emailCount} Emails Sent";
         // Call the effectiveness function
         Effectiveness();
+        audioManager.PlaySoundClip("SendEmail");
     }
 
     private void ResetEmailCount()
