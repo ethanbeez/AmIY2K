@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 306d614e8319c6949bab0cbfea1912d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8967299032402196248
+    second: Ghost_Bubble_Swirl_Blue_0
+  - first:
+      213: 4659617078938745146
+    second: Ghost_Bubble_Swirl_Blue_1
+  - first:
+      213: -6969058184258025403
+    second: Ghost_Bubble_Swirl_Blue_2
+  - first:
+      213: 5427450795558604250
+    second: Ghost_Bubble_Swirl_Blue_3
+  - first:
+      213: -1453356629078518890
+    second: Ghost_Bubble_Swirl_Blue_4
+  - first:
+      213: -7625245569874272009
+    second: Ghost_Bubble_Swirl_Blue_5
+  - first:
+      213: 8986802810852758945
+    second: Ghost_Bubble_Swirl_Blue_6
+  - first:
+      213: -9174330635502774151
+    second: Ghost_Bubble_Swirl_Blue_7
+  - first:
+      213: -4783252692620914351
+    second: Ghost_Bubble_Swirl_Blue_8
+  - first:
+      213: 2731821665836009737
+    second: Ghost_Bubble_Swirl_Blue_9
+  - first:
+      213: -4195854533476176664
+    second: Ghost_Bubble_Swirl_Blue_10
+  - first:
+      213: -7753505534494547295
+    second: Ghost_Bubble_Swirl_Blue_11
+  - first:
+      213: -4279271566090178456
+    second: Ghost_Bubble_Swirl_Blue_12
+  - first:
+      213: 6317946017112783970
+    second: Ghost_Bubble_Swirl_Blue_13
+  - first:
+      213: -9138949758214820201
+    second: Ghost_Bubble_Swirl_Blue_14
+  - first:
+      213: 368148496411713484
+    second: Ghost_Bubble_Swirl_Blue_15
+  - first:
+      213: 5281817848312036022
+    second: Ghost_Bubble_Swirl_Blue_16
+  - first:
+      213: -5532445673514545322
+    second: Ghost_Bubble_Swirl_Blue_17
+  - first:
+      213: -2530562132618352631
+    second: Ghost_Bubble_Swirl_Blue_18
+  - first:
+      213: 6668214571974239518
+    second: Ghost_Bubble_Swirl_Blue_19
+  - first:
+      213: 1278304120345170919
+    second: Ghost_Bubble_Swirl_Blue_20
+  - first:
+      213: -1702508405997059766
+    second: Ghost_Bubble_Swirl_Blue_21
+  - first:
+      213: 2334413540353241032
+    second: Ghost_Bubble_Swirl_Blue_22
+  - first:
+      213: 6955172661328200813
+    second: Ghost_Bubble_Swirl_Blue_23
+  - first:
+      213: 1759931717544278660
+    second: Ghost_Bubble_Swirl_Blue_24
+  - first:
+      213: -1458897389286014024
+    second: Ghost_Bubble_Swirl_Blue_25
+  - first:
+      213: -2192238308851038061
+    second: Ghost_Bubble_Swirl_Blue_26
+  - first:
+      213: -5572303896280338868
+    second: Ghost_Bubble_Swirl_Blue_27
+  - first:
+      213: -920817597973328939
+    second: Ghost_Bubble_Swirl_Blue_28
+  - first:
+      213: -6365529938964171220
+    second: Ghost_Bubble_Swirl_Blue_29
+  - first:
+      213: 4900891631283320130
+    second: Ghost_Bubble_Swirl_Blue_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817790d85fe327c70800000000000000
+      internalID: 8967299032402196248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39bc7bab094aa040800000000000000
+      internalID: 4659617078938745146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548854c418ee84f90800000000000000
+      internalID: -6969058184258025403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add8e212ebd225b40800000000000000
+      internalID: 5427450795558604250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_4
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693d0d798d3a4dbe0800000000000000
+      internalID: -1453356629078518890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_5
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0e582fd8fad2690800000000000000
+      internalID: -7625245569874272009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_6
+      rect:
+        serializedVersion: 2
+        x: 6009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a55c57da8987bc70800000000000000
+      internalID: 8986802810852758945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_7
+      rect:
+        serializedVersion: 2
+        x: 7009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9789fda05ea3ea080800000000000000
+      internalID: -9174330635502774151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_8
+      rect:
+        serializedVersion: 2
+        x: 8009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1515661d4097e9db0800000000000000
+      internalID: -4783252692620914351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_9
+      rect:
+        serializedVersion: 2
+        x: 9009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9090fddc45169e520800000000000000
+      internalID: 2731821665836009737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_10
+      rect:
+        serializedVersion: 2
+        x: 10009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca0fa488455c5c0800000000000000
+      internalID: -4195854533476176664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_11
+      rect:
+        serializedVersion: 2
+        x: 11009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a26d64dbc3066490800000000000000
+      internalID: -7753505534494547295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_12
+      rect:
+        serializedVersion: 2
+        x: 12009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860f3c5ee29fc94c0800000000000000
+      internalID: -4279271566090178456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_13
+      rect:
+        serializedVersion: 2
+        x: 13009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cf91cbd6adda750800000000000000
+      internalID: 6317946017112783970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_14
+      rect:
+        serializedVersion: 2
+        x: 14009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ea6797d9deb2180800000000000000
+      internalID: -9138949758214820201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_15
+      rect:
+        serializedVersion: 2
+        x: 15009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfd6316b1deb1500800000000000000
+      internalID: 368148496411713484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_16
+      rect:
+        serializedVersion: 2
+        x: 16009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baf4f84959cc4940800000000000000
+      internalID: 5281817848312036022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_17
+      rect:
+        serializedVersion: 2
+        x: 17009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fc40bd8fdc833b0800000000000000
+      internalID: -5532445673514545322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_18
+      rect:
+        serializedVersion: 2
+        x: 18009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9086a3bd523a1ecd0800000000000000
+      internalID: -2530562132618352631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_19
+      rect:
+        serializedVersion: 2
+        x: 19009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15ab90d2d14a8c50800000000000000
+      internalID: 6668214571974239518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_20
+      rect:
+        serializedVersion: 2
+        x: 20009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3971023d27db110800000000000000
+      internalID: 1278304120345170919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_21
+      rect:
+        serializedVersion: 2
+        x: 21009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41cd6100a97f58e0800000000000000
+      internalID: -1702508405997059766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_22
+      rect:
+        serializedVersion: 2
+        x: 22009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfed972fb0856020800000000000000
+      internalID: 2334413540353241032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_23
+      rect:
+        serializedVersion: 2
+        x: 23009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64c9f57facb58060800000000000000
+      internalID: 6955172661328200813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_24
+      rect:
+        serializedVersion: 2
+        x: 24009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a7b2592988c6810800000000000000
+      internalID: 1759931717544278660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_25
+      rect:
+        serializedVersion: 2
+        x: 25009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3ccd3dd84f0cbe0800000000000000
+      internalID: -1458897389286014024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_26
+      rect:
+        serializedVersion: 2
+        x: 26009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3984ee18fda9391e0800000000000000
+      internalID: -2192238308851038061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_27
+      rect:
+        serializedVersion: 2
+        x: 27009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6fa131233ba2b0800000000000000
+      internalID: -5572303896280338868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_28
+      rect:
+        serializedVersion: 2
+        x: 28009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db0fd9f5499833f0800000000000000
+      internalID: -920817597973328939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_29
+      rect:
+        serializedVersion: 2
+        x: 29009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c263dec1f3819a7a0800000000000000
+      internalID: -6365529938964171220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Swirl_Blue_30
+      rect:
+        serializedVersion: 2
+        x: 30009
+        y: 9
+        width: 982
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245b35df8f6730440800000000000000
+      internalID: 4900891631283320130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

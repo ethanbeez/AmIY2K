@@ -6798,7 +6798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5510036303208496958, guid: f9478b5063166a1459ac1bb36919d25b, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5659117816385779620, guid: f9478b5063166a1459ac1bb36919d25b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -8195,7 +8195,6 @@ MonoBehaviour:
   - You better speed it up.
   - You do know about the upgrades right
   - Come on! We have souls to collect
-  pauseQuips: []
   finalQuips:
   - It's getting close to the end.
   - Hurry up now we need more souls
@@ -11140,7 +11139,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 676493830}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 

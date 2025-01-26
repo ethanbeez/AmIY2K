@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 068a882b8d138304ba1076e4cb48e5db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5515732206564136963
+    second: Ghost_Bubble_Suck2_Pink_0
+  - first:
+      213: -3847350491621873337
+    second: Ghost_Bubble_Suck2_Pink_1
+  - first:
+      213: 2623707221210286070
+    second: Ghost_Bubble_Suck2_Pink_2
+  - first:
+      213: -8011221365000721359
+    second: Ghost_Bubble_Suck2_Pink_3
+  - first:
+      213: -8095801045435722861
+    second: Ghost_Bubble_Suck2_Pink_4
+  - first:
+      213: -6783383051771645806
+    second: Ghost_Bubble_Suck2_Pink_5
+  - first:
+      213: -2222354613559996483
+    second: Ghost_Bubble_Suck2_Pink_6
+  - first:
+      213: -916386275640351166
+    second: Ghost_Bubble_Suck2_Pink_7
+  - first:
+      213: -4870328174005153078
+    second: Ghost_Bubble_Suck2_Pink_8
+  - first:
+      213: -7446456839665764336
+    second: Ghost_Bubble_Suck2_Pink_9
+  - first:
+      213: 7899930528667362711
+    second: Ghost_Bubble_Suck2_Pink_10
+  - first:
+      213: -1737922435493585696
+    second: Ghost_Bubble_Suck2_Pink_11
+  - first:
+      213: 498638793975642923
+    second: Ghost_Bubble_Suck2_Pink_12
+  - first:
+      213: 7193343560979543803
+    second: Ghost_Bubble_Suck2_Pink_13
+  - first:
+      213: -4106641806214247546
+    second: Ghost_Bubble_Suck2_Pink_14
+  - first:
+      213: 1334691817648112860
+    second: Ghost_Bubble_Suck2_Pink_15
+  - first:
+      213: 7210003748570513228
+    second: Ghost_Bubble_Suck2_Pink_16
+  - first:
+      213: -6710885102407732435
+    second: Ghost_Bubble_Suck2_Pink_17
+  - first:
+      213: -5587101475923241095
+    second: Ghost_Bubble_Suck2_Pink_18
+  - first:
+      213: -2889333279816964765
+    second: Ghost_Bubble_Suck2_Pink_19
+  - first:
+      213: -8294129484897968788
+    second: Ghost_Bubble_Suck2_Pink_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308df60e731db8c40800000000000000
+      internalID: 5515732206564136963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_1
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749247cac177b9ac0800000000000000
+      internalID: -3847350491621873337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_2
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7cdd211d7496420800000000000000
+      internalID: 2623707221210286070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_3
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cac122d9c62d090800000000000000
+      internalID: -8011221365000721359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_4
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3935192b7dfe5af80800000000000000
+      internalID: -8095801045435722861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_5
+      rect:
+        serializedVersion: 2
+        x: 5004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290feb7ed059cd1a0800000000000000
+      internalID: -6783383051771645806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_6
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf4ec5e04c9821e0800000000000000
+      internalID: -2222354613559996483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_7
+      rect:
+        serializedVersion: 2
+        x: 7004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246e96b99875843f0800000000000000
+      internalID: -916386275640351166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_8
+      rect:
+        serializedVersion: 2
+        x: 8004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac298d0745e196cb0800000000000000
+      internalID: -4870328174005153078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_9
+      rect:
+        serializedVersion: 2
+        x: 9004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018b17415fed8a890800000000000000
+      internalID: -7446456839665764336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_10
+      rect:
+        serializedVersion: 2
+        x: 10004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7956b7fc5f032ad60800000000000000
+      internalID: 7899930528667362711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_11
+      rect:
+        serializedVersion: 2
+        x: 11004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec1939b0c8a1e7e0800000000000000
+      internalID: -1737922435493585696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_12
+      rect:
+        serializedVersion: 2
+        x: 12004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bb52a57558be600800000000000000
+      internalID: 498638793975642923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_13
+      rect:
+        serializedVersion: 2
+        x: 13004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf677835bd3e3d360800000000000000
+      internalID: 7193343560979543803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_14
+      rect:
+        serializedVersion: 2
+        x: 14004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bc4d009074207c0800000000000000
+      internalID: -4106641806214247546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_15
+      rect:
+        serializedVersion: 2
+        x: 15004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4498bf227c58210800000000000000
+      internalID: 1334691817648112860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_16
+      rect:
+        serializedVersion: 2
+        x: 16004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fb7c685341f0460800000000000000
+      internalID: 7210003748570513228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_17
+      rect:
+        serializedVersion: 2
+        x: 17004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23b68e1e852ed2a0800000000000000
+      internalID: -6710885102407732435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_18
+      rect:
+        serializedVersion: 2
+        x: 18004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977d8833fc0a672b0800000000000000
+      internalID: -5587101475923241095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_19
+      rect:
+        serializedVersion: 2
+        x: 19004
+        y: 2
+        width: 992
+        height: 994
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365abcab0b607e7d0800000000000000
+      internalID: -2889333279816964765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck2_Pink_20
+      rect:
+        serializedVersion: 2
+        x: 20004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d109b7d2555ec80800000000000000
+      internalID: -8294129484897968788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

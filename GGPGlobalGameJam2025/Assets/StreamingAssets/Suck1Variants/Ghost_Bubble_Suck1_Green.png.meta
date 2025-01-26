@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 4e496b8fedee311468b8e5eb9b8705ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4132539894839484189
+    second: Ghost_Bubble_Suck1_Green_0
+  - first:
+      213: 2163429740287624254
+    second: Ghost_Bubble_Suck1_Green_1
+  - first:
+      213: 5603728112532856958
+    second: Ghost_Bubble_Suck1_Green_2
+  - first:
+      213: -8094155822196760354
+    second: Ghost_Bubble_Suck1_Green_3
+  - first:
+      213: -7725898790046824327
+    second: Ghost_Bubble_Suck1_Green_4
+  - first:
+      213: 6430413198684483280
+    second: Ghost_Bubble_Suck1_Green_5
+  - first:
+      213: -3245825409131738617
+    second: Ghost_Bubble_Suck1_Green_6
+  - first:
+      213: -2681675764293457990
+    second: Ghost_Bubble_Suck1_Green_7
+  - first:
+      213: 8601614195577799062
+    second: Ghost_Bubble_Suck1_Green_8
+  - first:
+      213: 1282750373387714452
+    second: Ghost_Bubble_Suck1_Green_9
+  - first:
+      213: -436513344435384420
+    second: Ghost_Bubble_Suck1_Green_10
+  - first:
+      213: 8174649220637259227
+    second: Ghost_Bubble_Suck1_Green_11
+  - first:
+      213: 7885531003680707850
+    second: Ghost_Bubble_Suck1_Green_12
+  - first:
+      213: 1909576938109335708
+    second: Ghost_Bubble_Suck1_Green_13
+  - first:
+      213: 6206045203613846756
+    second: Ghost_Bubble_Suck1_Green_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e066fb5cd446a6c0800000000000000
+      internalID: -4132539894839484189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_1
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e340c5ee2eb060e10800000000000000
+      internalID: 2163429740287624254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_2
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70246d470174cd40800000000000000
+      internalID: 5603728112532856958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_3
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed06d451a28cbaf80800000000000000
+      internalID: -8094155822196760354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_4
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97883a8ebf718c490800000000000000
+      internalID: -7725898790046824327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_5
+      rect:
+        serializedVersion: 2
+        x: 5004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de62920cba6d3950800000000000000
+      internalID: 6430413198684483280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_6
+      rect:
+        serializedVersion: 2
+        x: 6004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a04cdccf284f2d0800000000000000
+      internalID: -3245825409131738617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_7
+      rect:
+        serializedVersion: 2
+        x: 7004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7a38ab916c8cad0800000000000000
+      internalID: -2681675764293457990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_8
+      rect:
+        serializedVersion: 2
+        x: 8004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6914f5e99821f5770800000000000000
+      internalID: 8601614195577799062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_9
+      rect:
+        serializedVersion: 2
+        x: 9004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f36451bae3dc110800000000000000
+      internalID: 1282750373387714452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_10
+      rect:
+        serializedVersion: 2
+        x: 10004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f063d0d6131f9f0800000000000000
+      internalID: -436513344435384420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_11
+      rect:
+        serializedVersion: 2
+        x: 11004
+        y: 0
+        width: 992
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5f18fa720327170800000000000000
+      internalID: 8174649220637259227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_12
+      rect:
+        serializedVersion: 2
+        x: 12004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05d7b32ba80f6d60800000000000000
+      internalID: 7885531003680707850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_13
+      rect:
+        serializedVersion: 2
+        x: 13004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98f84b9b1e208a10800000000000000
+      internalID: 1909576938109335708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Bubble_Suck1_Green_14
+      rect:
+        serializedVersion: 2
+        x: 14004
+        y: 4
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec8b6d4b3d402650800000000000000
+      internalID: 6206045203613846756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
