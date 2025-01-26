@@ -138,6 +138,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Suck1_Green_0: -4132539894839484189
+      Ghost_Bubble_Suck1_Green_1: 2163429740287624254
+      Ghost_Bubble_Suck1_Green_10: -436513344435384420
+      Ghost_Bubble_Suck1_Green_11: 8174649220637259227
+      Ghost_Bubble_Suck1_Green_12: 7885531003680707850
+      Ghost_Bubble_Suck1_Green_13: 1909576938109335708
+      Ghost_Bubble_Suck1_Green_14: 6206045203613846756
+      Ghost_Bubble_Suck1_Green_2: 5603728112532856958
+      Ghost_Bubble_Suck1_Green_3: -8094155822196760354
+      Ghost_Bubble_Suck1_Green_4: -7725898790046824327
+      Ghost_Bubble_Suck1_Green_5: 6430413198684483280
+      Ghost_Bubble_Suck1_Green_6: -3245825409131738617
+      Ghost_Bubble_Suck1_Green_7: -2681675764293457990
+      Ghost_Bubble_Suck1_Green_8: 8601614195577799062
+      Ghost_Bubble_Suck1_Green_9: 1282750373387714452
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

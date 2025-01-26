@@ -156,6 +156,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -634,7 +660,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Suck2_Pink_0: 5515732206564136963
+      Ghost_Bubble_Suck2_Pink_1: -3847350491621873337
+      Ghost_Bubble_Suck2_Pink_10: 7899930528667362711
+      Ghost_Bubble_Suck2_Pink_11: -1737922435493585696
+      Ghost_Bubble_Suck2_Pink_12: 498638793975642923
+      Ghost_Bubble_Suck2_Pink_13: 7193343560979543803
+      Ghost_Bubble_Suck2_Pink_14: -4106641806214247546
+      Ghost_Bubble_Suck2_Pink_15: 1334691817648112860
+      Ghost_Bubble_Suck2_Pink_16: 7210003748570513228
+      Ghost_Bubble_Suck2_Pink_17: -6710885102407732435
+      Ghost_Bubble_Suck2_Pink_18: -5587101475923241095
+      Ghost_Bubble_Suck2_Pink_19: -2889333279816964765
+      Ghost_Bubble_Suck2_Pink_2: 2623707221210286070
+      Ghost_Bubble_Suck2_Pink_20: -8294129484897968788
+      Ghost_Bubble_Suck2_Pink_3: -8011221365000721359
+      Ghost_Bubble_Suck2_Pink_4: -8095801045435722861
+      Ghost_Bubble_Suck2_Pink_5: -6783383051771645806
+      Ghost_Bubble_Suck2_Pink_6: -2222354613559996483
+      Ghost_Bubble_Suck2_Pink_7: -916386275640351166
+      Ghost_Bubble_Suck2_Pink_8: -4870328174005153078
+      Ghost_Bubble_Suck2_Pink_9: -7446456839665764336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

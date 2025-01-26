@@ -156,6 +156,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -634,7 +660,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Suck2_Aqua_0: 8499762715082364902
+      Ghost_Bubble_Suck2_Aqua_1: 6985581329136972786
+      Ghost_Bubble_Suck2_Aqua_10: -2390432036211986261
+      Ghost_Bubble_Suck2_Aqua_11: 3580940326109315255
+      Ghost_Bubble_Suck2_Aqua_12: -1604460716277950335
+      Ghost_Bubble_Suck2_Aqua_13: 1399633027158397518
+      Ghost_Bubble_Suck2_Aqua_14: -1758913283861629824
+      Ghost_Bubble_Suck2_Aqua_15: 8959568255741560256
+      Ghost_Bubble_Suck2_Aqua_16: -5730263839015744720
+      Ghost_Bubble_Suck2_Aqua_17: 8086169167764838456
+      Ghost_Bubble_Suck2_Aqua_18: -7998013740492350684
+      Ghost_Bubble_Suck2_Aqua_19: -5133431035187963652
+      Ghost_Bubble_Suck2_Aqua_2: 8946086810864366563
+      Ghost_Bubble_Suck2_Aqua_20: -1004773317806680549
+      Ghost_Bubble_Suck2_Aqua_3: 1972051091345166387
+      Ghost_Bubble_Suck2_Aqua_4: 2599257566533364464
+      Ghost_Bubble_Suck2_Aqua_5: 201497385587010269
+      Ghost_Bubble_Suck2_Aqua_6: 4063636411501090764
+      Ghost_Bubble_Suck2_Aqua_7: -8365589622880445471
+      Ghost_Bubble_Suck2_Aqua_8: -5716712308279614660
+      Ghost_Bubble_Suck2_Aqua_9: -920543958470109367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

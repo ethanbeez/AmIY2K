@@ -186,6 +186,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -884,7 +910,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Swirl_Blue_0: 8967299032402196248
+      Ghost_Bubble_Swirl_Blue_1: 4659617078938745146
+      Ghost_Bubble_Swirl_Blue_10: -4195854533476176664
+      Ghost_Bubble_Swirl_Blue_11: -7753505534494547295
+      Ghost_Bubble_Swirl_Blue_12: -4279271566090178456
+      Ghost_Bubble_Swirl_Blue_13: 6317946017112783970
+      Ghost_Bubble_Swirl_Blue_14: -9138949758214820201
+      Ghost_Bubble_Swirl_Blue_15: 368148496411713484
+      Ghost_Bubble_Swirl_Blue_16: 5281817848312036022
+      Ghost_Bubble_Swirl_Blue_17: -5532445673514545322
+      Ghost_Bubble_Swirl_Blue_18: -2530562132618352631
+      Ghost_Bubble_Swirl_Blue_19: 6668214571974239518
+      Ghost_Bubble_Swirl_Blue_2: -6969058184258025403
+      Ghost_Bubble_Swirl_Blue_20: 1278304120345170919
+      Ghost_Bubble_Swirl_Blue_21: -1702508405997059766
+      Ghost_Bubble_Swirl_Blue_22: 2334413540353241032
+      Ghost_Bubble_Swirl_Blue_23: 6955172661328200813
+      Ghost_Bubble_Swirl_Blue_24: 1759931717544278660
+      Ghost_Bubble_Swirl_Blue_25: -1458897389286014024
+      Ghost_Bubble_Swirl_Blue_26: -2192238308851038061
+      Ghost_Bubble_Swirl_Blue_27: -5572303896280338868
+      Ghost_Bubble_Swirl_Blue_28: -920817597973328939
+      Ghost_Bubble_Swirl_Blue_29: -6365529938964171220
+      Ghost_Bubble_Swirl_Blue_3: 5427450795558604250
+      Ghost_Bubble_Swirl_Blue_30: 4900891631283320130
+      Ghost_Bubble_Swirl_Blue_4: -1453356629078518890
+      Ghost_Bubble_Swirl_Blue_5: -7625245569874272009
+      Ghost_Bubble_Swirl_Blue_6: 8986802810852758945
+      Ghost_Bubble_Swirl_Blue_7: -9174330635502774151
+      Ghost_Bubble_Swirl_Blue_8: -4783252692620914351
+      Ghost_Bubble_Swirl_Blue_9: 2731821665836009737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

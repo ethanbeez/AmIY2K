@@ -138,6 +138,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Suck1_Aqua_0: 6678889441059698065
+      Ghost_Bubble_Suck1_Aqua_1: 3350746600024970558
+      Ghost_Bubble_Suck1_Aqua_10: -8805210242535855177
+      Ghost_Bubble_Suck1_Aqua_11: 4723019667817426022
+      Ghost_Bubble_Suck1_Aqua_12: 3915567470047489105
+      Ghost_Bubble_Suck1_Aqua_13: 2035104971801587003
+      Ghost_Bubble_Suck1_Aqua_14: -6256857995156086498
+      Ghost_Bubble_Suck1_Aqua_2: 3609425716345813479
+      Ghost_Bubble_Suck1_Aqua_3: -1700865453439060078
+      Ghost_Bubble_Suck1_Aqua_4: -7983213888497694965
+      Ghost_Bubble_Suck1_Aqua_5: -501869894552731755
+      Ghost_Bubble_Suck1_Aqua_6: 7422528201693117508
+      Ghost_Bubble_Suck1_Aqua_7: 6510098405293513690
+      Ghost_Bubble_Suck1_Aqua_8: -5561388488710116111
+      Ghost_Bubble_Suck1_Aqua_9: 6237227790073961474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

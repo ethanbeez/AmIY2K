@@ -186,6 +186,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -884,7 +910,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Swirl_Purple_0: -6229417646593586011
+      Ghost_Bubble_Swirl_Purple_1: -7991809819309802577
+      Ghost_Bubble_Swirl_Purple_10: -7392308311061402409
+      Ghost_Bubble_Swirl_Purple_11: -1329318530799866285
+      Ghost_Bubble_Swirl_Purple_12: -105268771550306151
+      Ghost_Bubble_Swirl_Purple_13: -5409085250056429875
+      Ghost_Bubble_Swirl_Purple_14: 3655641010037986225
+      Ghost_Bubble_Swirl_Purple_15: 2570305205624270158
+      Ghost_Bubble_Swirl_Purple_16: 4458759398977244745
+      Ghost_Bubble_Swirl_Purple_17: -6940595106684298463
+      Ghost_Bubble_Swirl_Purple_18: 2013270011664959955
+      Ghost_Bubble_Swirl_Purple_19: -4310847629748201675
+      Ghost_Bubble_Swirl_Purple_2: -2153896194582676499
+      Ghost_Bubble_Swirl_Purple_20: 7669577942105357513
+      Ghost_Bubble_Swirl_Purple_21: 6546980001502276234
+      Ghost_Bubble_Swirl_Purple_22: 8466516663842177555
+      Ghost_Bubble_Swirl_Purple_23: 7715653447738823407
+      Ghost_Bubble_Swirl_Purple_24: -2046545928385413145
+      Ghost_Bubble_Swirl_Purple_25: 6314361227332282982
+      Ghost_Bubble_Swirl_Purple_26: -641975233731628143
+      Ghost_Bubble_Swirl_Purple_27: -5296368219862249684
+      Ghost_Bubble_Swirl_Purple_28: -1975923331953267780
+      Ghost_Bubble_Swirl_Purple_29: -1455465955735839493
+      Ghost_Bubble_Swirl_Purple_3: 8324382436630739093
+      Ghost_Bubble_Swirl_Purple_30: 6075968613572754576
+      Ghost_Bubble_Swirl_Purple_4: -104401106579474845
+      Ghost_Bubble_Swirl_Purple_5: 1821808450724216420
+      Ghost_Bubble_Swirl_Purple_6: 4011256432092429271
+      Ghost_Bubble_Swirl_Purple_7: -7936892905147948596
+      Ghost_Bubble_Swirl_Purple_8: -349009858540523562
+      Ghost_Bubble_Swirl_Purple_9: 6988330615234986121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
