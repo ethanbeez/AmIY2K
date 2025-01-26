@@ -8193,15 +8193,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameQuips:
   - You better speed it up.
-  - You do know about the upgrades right
-  - Come on! We have souls to collect
+  - You do know about the upgrades right. They're literally right there.
+  - The Irish countryside was nice but tbh I kinda love the sparklez in this computer
+    screen lolz
+  - One of my BEST FRIENDS was a Salem girlie. She didn't make it :( but she got
+    me like 50 souls which at the time was a lot XD
+  - Marie Laveau was a girls girl :3 I never got to work with her but she was cool
+    lol
+  - There was this cute boy I teamed with one time who was all like "Loa you're evil
+    you gotta stop" so I sealed his soul in the chaos realm too ROFL
+  - OKOK hear me out - next email you write has a blood contract so I can collect
+    a few firstborns. They can just, like, bleed a little on the keyboard, maybe?
+  - Some of my first ever besties are Sluagh!! I wonder what they're up to now. Maybe
+    I can find them on Blogger?
+  - It sucks soooo bad I never got to meet Circe, she's like, totally my idol.
+  - Do you like my outfit btw? I based it off your EEBAY wishlist :D
+  - I wonder what all this talk about One Peace is about. OKAYYYY just watched it
+    allll the One Peace is REAL!!
+  - 'Did you ever hack into your report card? JUST kidding I already know you did
+    lolz '
   finalQuips:
-  - It's getting close to the end.
-  - Hurry up now we need more souls
-  - Only a minute left. Hurry!
+  - OMG GIRL we're running out of time!! TYPE FASTER!!
+  - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  - Now is NOT the time to chillax!
+  - Take it slooow, take it eaassy, you got time- NOT! GET THOSE FINGERS TIPPITY
+    TAP TAPPIN BEFORE I TAP  YOUR SKULL OPEN!
+  - COME ON COME ON COME ON!!!
+  - 'Final stretch, final stretch! It''s like the plague all over again! Except this
+    time, it''s a digital epidemic of CAT-astrophic proportions! Get it? Cuz funny
+    cat pictures. '
   quipText: {fileID: 1027422630}
   countdownTimer: {fileID: 1237671825}
-  gameQuipInterval: 5
+  gameQuipInterval: 30
 --- !u!114 &1145483549 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6876379383285512951, guid: f9478b5063166a1459ac1bb36919d25b, type: 3}
@@ -8246,26 +8269,50 @@ MonoBehaviour:
   submitButton: {fileID: 584769553}
   newButton: {fileID: 1023032456}
   prewrittenEmails:
-  - 'Hello friend,
+  - 'SUBJECT LINE: Global Alert for All: The Fae are Real
 
+    
 
-    I''m writting to warn you that a level 20 earthquake is
-    headed your way! Not to fear though because if you send this email to 20 friends,
-    the earthquake will not only bypass you, but all of your friends as well. However,
-    if you don''t send this email out, everyone you love will perish in the eathquake.'
-  - 'Hello friend,
-
-
-    Did you know 1 in every 10 people are attacked by sharks
-    everyday. Don''t worry. If you send this email to 10 friends, you can rotect
-    yourself and them from shark attacks. However if you don''t send this email out,
-    you and all your friends will be attakced.'
-  - 'Hello friend,
-
-
-    Ebola is back! It''s a national emergency. Send this email
-    to 12 friends to notify them that they should stay inside. If you don''t you
-    will get Ebola!!!'
+    BEWARE!!! The
+    fae are real and they are coming NOW. The first 100 souls to click on the link
+    below will have their souls SPARED but only if you send 20 dollars to this PayNow
+    account -> -> -> https://bitly.com/98K8eH and then send this email to FIVE friends
+    to SPARE THEM TOO.'
+  - "\rSUBJECT LINE: SHARKS ON LAND: TRUE?\n\r\nIn the last week alone there have
+    been 200+ sightings of sharks walking on land. What does this mean for you? For
+    your children? How do walking sharks breathe?? What can you do??? You can fight
+    against sharks on land by clicking this link below and SHARING!"
+  - "\rSUBJECT LINE: Salem Witches Are Immortal and Angry At YOU\n\r\nAre you located
+    within 300 miles of Salem? IF SO, you are in DANGER. If you do not click on the
+    link in this email NOW the witches of Salem will know and they will FIND YOU.
+    They are watching right now - do not delete this email. Ask for their forgiveness
+    by CLICKING NOW.\r\n"
+  - "\rSUBJECT LINE: MAKE CASH FAST (Y2K HACK)\n\r\nIF YOU HAVE RECEIVED THIS EMAIL,
+    YOU HAVE BEEN SELECTED FOR A ONCE IN A LIFETIME CHANCE. By sending your personal
+    and bank information to THIS ADDRESS: https://bitly.com/98K8eH , you guarantee
+    yourself a MINIMUM $10,000 reward. Banks aren't ready for Y2K, but we are. Sign
+    up now, before midnight hits!!!"
+  - "\rSUBJECT LINE: Salem Witches Are Immortal and Angry At YOU\n\r\nAre you located
+    within 300 miles of Salem? IF SO, you are in DANGER. If you do not click on the
+    link in this email NOW the witches of Salem will know and they will FIND YOU.
+    They are watching right now - do not delete this email. Ask for their forgiveness
+    by CLICKING NOW.\r\n"
+  - "\rSUBJECT LINE: THE WORLD WILL END AT MIDNIGHT. REPENT!\n\r\nDO NOT BE FOOLED!
+    Y2K is only MINUTES away, and the bug will cause NUCLEAR MALFUNCTIONS. YOU MUST
+    REPENT. FOLLOW THIS LINK FOR PRAYER INSTRUCTIONS. DO NOT WAIT. THEY ARE WATCHING
+    YOU NOW.\r\n"
+  - "\rSUBJECT LINE: Last Minute Y2K Prep Kits !On Sale Now!\n\r\nAre you ready for
+    Y2K? Chances are, you've been slacking, and now there's less than an hour to
+    go, and you are woefully unprepared - good news - LAST MINUTE Y2K KITS ARE READY
+    NOW. Visit our site and place an order NOW so you are ready for what's coming
+    next. "
+  - "\rSUBJECT LINE: YAOI LOVERS, LISTEN UP!!!\n\r\nSo it's the end of the world
+    - what does this mean for your OTP?? Turns out, it's a great chance! Register
+    your OTP on this petition list to make them canon if the internet still exists
+    after Y2K and if we get enough signatures! Let's make Kirk/Spock canon!!!"
+  - "\rSUBJECT LINE: Meet the Backstreet Boyz!\n\r\nAre you 18-24 and single? The
+    Backstreet Boyz would like to meet YOU! Throw that hair up into a messy bun and
+    click here NOW for a FREE weekend with the Backstreet Boyz."
   upgrades: {fileID: 2091305107}
 --- !u!4 &1178252626
 Transform:
