@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Empty_Bubble_DoubleShine_Blue_0: 4528857325490847609
+      Empty_Bubble_DoubleShine_Blue_1: -7184095312269881198
+      Empty_Bubble_DoubleShine_Blue_2: 355204173682014458
+      Empty_Bubble_DoubleShine_Blue_3: 4348108357816448197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -17,11 +17,15 @@ public class Bubble : MonoBehaviour {
     [SerializeField] private Sprite[] suckedUpVariant2Sprites;
     private Sprite[] currentAnimation;
     private BubbleState bubbleState;
+    private bool suckingAnimationStarted;
 
     private int index = 0;
     private float timer = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
+        currentAnimation = null;
+        bubbleState = BubbleState.Empty;
+        suckingAnimationStarted = false;
     }
 
     // Update is called once per frame
@@ -34,7 +38,17 @@ public class Bubble : MonoBehaviour {
     }
 
     public void Animate() {
+        if (suckingAnimationStarted) {
+            suckingAnimationStarted = false;
+            timer = 0;
+            index = 0;
+            currentAnimation = suckedUpVariant1Sprites;
+        }
         if (currentAnimation == null || index == currentAnimation.Length - 1) {
+            if (bubbleState == BubbleState.Sucking) {
+                Destroy(gameObject);
+                return;
+            }
             if (Random.value < swirlLikelihood) {
                 bubbleState = BubbleState.Swirling;
                 currentAnimation = swirlSprites;
@@ -60,6 +74,14 @@ public class Bubble : MonoBehaviour {
             image.sprite = currentAnimation[index];
             index = (index + 1) % currentAnimation.Length;
         }
+    }
+
+    public void SuckUpSoul() {
+        if (bubbleState == BubbleState.Sucking) {
+            return;
+        }
+        bubbleState = BubbleState.Sucking;
+        suckingAnimationStarted = true;
     }
 
     /*public void InitializeEmptyAnimation(Sprite[] emptySprites) {

@@ -197,7 +197,7 @@ MonoBehaviour:
   swirlLikelihood: 0.2
   emptyDuration: 2
   swirlDuration: 2
-  suckDuration: 4
+  suckDuration: 1
   image: {fileID: 1810429938261502882}
   emptySprites:
   - {fileID: 7355278968583312799, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
@@ -236,7 +236,23 @@ MonoBehaviour:
   - {fileID: -4764294081659609254, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
   - {fileID: -1373769428968126592, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
   - {fileID: -5914941702147827350, guid: 0e79e6f6d47c9a1438f93312fbe11ae9, type: 3}
-  suckedUpVariant1Sprites: []
+  suckedUpVariant1Sprites:
+  - {fileID: 1522607506655802005, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -8015179262316378773, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: 2746422226143342926, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -5036197364509387161, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: 4066763234247436612, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -5090264506015277480, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -2403966019092218633, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -7806883952557704557, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -1512666001020771366, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -2954650113545622437, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: 9055558396766982952, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -7193493328896323855, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -7193493328896323855, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -7739703978040398543, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -7739703978040398543, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
+  - {fileID: -5572703766056137557, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
   suckedUpVariant2Sprites: []
 --- !u!222 &7878658340724244402
 CanvasRenderer:

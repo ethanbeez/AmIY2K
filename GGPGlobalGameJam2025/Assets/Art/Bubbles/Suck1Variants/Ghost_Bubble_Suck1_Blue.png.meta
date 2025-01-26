@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Suck1_Blue_0: -5049997623583672962
+      Ghost_Bubble_Suck1_Blue_1: 8514688998445653918
+      Ghost_Bubble_Suck1_Blue_10: 246263225618047663
+      Ghost_Bubble_Suck1_Blue_11: -8352823668174227565
+      Ghost_Bubble_Suck1_Blue_12: 6042004212486783331
+      Ghost_Bubble_Suck1_Blue_13: -8715515696083798992
+      Ghost_Bubble_Suck1_Blue_14: -4211556780557900823
+      Ghost_Bubble_Suck1_Blue_2: -6137020820147988169
+      Ghost_Bubble_Suck1_Blue_3: -7564980015179369128
+      Ghost_Bubble_Suck1_Blue_4: 5953912929215373743
+      Ghost_Bubble_Suck1_Blue_5: 5443319808967109739
+      Ghost_Bubble_Suck1_Blue_6: -3771663084367831727
+      Ghost_Bubble_Suck1_Blue_7: 6352114231405884550
+      Ghost_Bubble_Suck1_Blue_8: -6169571250304074927
+      Ghost_Bubble_Suck1_Blue_9: 8673031279590372977
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

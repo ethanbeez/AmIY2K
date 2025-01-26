@@ -80,7 +80,8 @@ public class SoulManager : MonoBehaviour {
             int soulValue = spawnedBubble.GetComponent<Bubble>().GetSoulValue();
             soulsStored += soulValue;
             totalSouls += soulValue;
-            Destroy(spawnedBubble); // TODO: After animations are done, only destroyed after it's sucked up
+            spawnedBubble.GetComponent<Bubble>().SuckUpSoul();
+            // Destroy(spawnedBubble); // TODO: After animations are done, only destroyed after it's sucked up
         }
         capturedSouls = 0;
         spawnedBubbles.Clear();

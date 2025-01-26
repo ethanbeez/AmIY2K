@@ -634,7 +634,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost_Bubble_Suck2_Yellow_0: 2875262531815489647
+      Ghost_Bubble_Suck2_Yellow_1: 8635071445031329969
+      Ghost_Bubble_Suck2_Yellow_10: 4766485062491636831
+      Ghost_Bubble_Suck2_Yellow_11: -3236012872842244380
+      Ghost_Bubble_Suck2_Yellow_12: -235128419541408280
+      Ghost_Bubble_Suck2_Yellow_13: 8464978851568231192
+      Ghost_Bubble_Suck2_Yellow_14: 5343692438429972502
+      Ghost_Bubble_Suck2_Yellow_15: 5249115352220154196
+      Ghost_Bubble_Suck2_Yellow_16: -3392873560677592952
+      Ghost_Bubble_Suck2_Yellow_17: 6366676148289635291
+      Ghost_Bubble_Suck2_Yellow_18: 7937080453320368409
+      Ghost_Bubble_Suck2_Yellow_19: 1932704773340867879
+      Ghost_Bubble_Suck2_Yellow_2: 1615071910693803278
+      Ghost_Bubble_Suck2_Yellow_20: 7960181695799298387
+      Ghost_Bubble_Suck2_Yellow_3: -6038064977547887000
+      Ghost_Bubble_Suck2_Yellow_4: -1970483352605408837
+      Ghost_Bubble_Suck2_Yellow_5: -1118986571422316443
+      Ghost_Bubble_Suck2_Yellow_6: -8967101721013558010
+      Ghost_Bubble_Suck2_Yellow_7: -8951365396276895301
+      Ghost_Bubble_Suck2_Yellow_8: 3180551630429265794
+      Ghost_Bubble_Suck2_Yellow_9: 8580060691440904943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

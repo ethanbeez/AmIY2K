@@ -10822,7 +10822,7 @@ MonoBehaviour:
   soulsStored: 0
   totalSouls: 0
   capturedSouls: 0
-  bubblePrefab: {fileID: 3702391585294996490, guid: 4794a38768fdcca43ba4532ce8409bb2, type: 3}
+  bubblePrefab: {fileID: 3702391585294996490, guid: f60d878dc5dc4b24c97275bd3f90c37d, type: 3}
   bubbleContainer: {fileID: 259765582}
   soulsStoredCounter: {fileID: 385466386}
   soulsTotalCounter: {fileID: 1226397652}

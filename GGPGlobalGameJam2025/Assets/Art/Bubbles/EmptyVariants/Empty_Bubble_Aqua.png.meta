@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Empty_Bubble_Aqua_0: 7489066794002340659
+      Empty_Bubble_Aqua_1: 139764567898842332
+      Empty_Bubble_Aqua_2: 1277762445362581003
+      Empty_Bubble_Aqua_3: -5545527847842318031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
