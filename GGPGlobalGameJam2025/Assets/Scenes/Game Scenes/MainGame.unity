@@ -7731,7 +7731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4999954142306859017, guid: d3f2955997974f74e831c8f66b355ae4, type: 3}
+  m_Sprite: {fileID: -5468960565006146794, guid: 2ceaba4d4951c1d479f06d5cb8306a8f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8271,13 +8271,12 @@ MonoBehaviour:
   prewrittenEmails:
   - 'SUBJECT LINE: Global Alert for All: The Fae are Real
 
-    
 
-    BEWARE!!! The
-    fae are real and they are coming NOW. The first 100 souls to click on the link
-    below will have their souls SPARED but only if you send 20 dollars to this PayNow
-    account -> -> -> https://bitly.com/98K8eH and then send this email to FIVE friends
-    to SPARE THEM TOO.'
+    BEWARE!!! The fae
+    are real and they are coming NOW. The first 100 souls to click on the link below
+    will have their souls SPARED but only if you send 20 dollars to this PayNow account
+    -> -> -> https://bitly.com/98K8eH and then send this email to FIVE friends to
+    SPARE THEM TOO.'
   - "\rSUBJECT LINE: SHARKS ON LAND: TRUE?\n\r\nIn the last week alone there have
     been 200+ sightings of sharks walking on land. What does this mean for you? For
     your children? How do walking sharks breathe?? What can you do??? You can fight
