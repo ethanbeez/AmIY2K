@@ -1,12 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-
-public enum CurrentGameContext { 
-    MainMenu,
-    InGame,
-    EndScreen
-}
 
 public class GameManager : MonoBehaviour {
     [Header("Settings")]
@@ -16,12 +9,6 @@ public class GameManager : MonoBehaviour {
 
     [Header("Scene Hooks")]
     [SerializeField] private CountdownTimer countdownTimer;
-    [SerializeField] private GameObject mainMenuUI;
-    [SerializeField] private GameObject mainGameUI;
-    [SerializeField] private GameObject endScreenUI;
-    [SerializeField] private Sprite mainMenuWallpaper;
-    [SerializeField] private Sprite mainGameWallpaper;
-    [SerializeField] private GameObject wallpaperGameObject;
     [SerializeField] private SoulManager soulManager;
     [SerializeField] private SendEmail sendEmail;
     [SerializeField] private WriteEmail writeEmail;
@@ -38,14 +25,13 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private Upgrade upgrades;
 
     [Header("Text")]
-    [SerializeField] private string endGameLameText = "C'mon, it's almost like you don’t want to watch the world burn.";
+    [SerializeField] private string endGameLameText = "C'mon, it's almost like you donâ€™t want to watch the world burn.";
     [SerializeField] private string endGameHavocText = "Not bad, not bad. For a normie non-magical, I guess.";
     [SerializeField] private string endGameMayhemText = "OMG ur actually the bestest person everrrrr! Thaaanks bestie!";
     private GameInstance currentGameInstance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         includeOnboard = true;
-        ShowMainMenuUI();
         countdownTimer.Deactivate();
         CountdownTimer.TimerFinished += OnTimerFinished;
     }
@@ -62,32 +48,6 @@ public class GameManager : MonoBehaviour {
         EndGame();
     }
 
-    public void ShowMainMenuUI() { 
-        wallpaperGameObject.GetComponent<Image>().sprite = mainMenuWallpaper;
-        mainGameUI.SetActive(false);
-        mainMenuUI.SetActive(true);
-        endScreenUI.SetActive(false);
-    }
-
-    public void ShowMainGameUI() {
-        wallpaperGameObject.GetComponent<Image>().sprite = mainGameWallpaper;
-        mainGameUI.SetActive(true);
-        mainMenuUI.SetActive(false);
-        endScreenUI.SetActive(false);
-    }
-
-    public void ShowEndScreenUI() {
-        SetEndScreenScoreValues();
-        mainGameUI.SetActive(false);
-        mainMenuUI.SetActive(false);
-        endScreenUI.SetActive(true);
-    }
-
-    public void GoToMainMenu() {
-        ResetGameState();
-        ShowMainMenuUI();
-    }
-
     private void ResetGameState() {
         countdownTimer.ResetState();
         sendEmail.ResetState();
@@ -97,7 +57,6 @@ public class GameManager : MonoBehaviour {
     }
 
     public void EndGame() {
-        ShowEndScreenUI();
         countdownTimer.Deactivate();
         audioManager.PlaySoundClip("EndGame");
     }
@@ -127,7 +86,6 @@ public class GameManager : MonoBehaviour {
     /// Start a new instance of the game. Here, game refers to the main gameplay loop of email-writing.
     /// </summary>
     public void StartNewGame() {
-        ShowMainGameUI();
         if (includeOnboard) {
             // Include the onboard tutorial if the player hasn't completed it before.
             InitializeOnboard();

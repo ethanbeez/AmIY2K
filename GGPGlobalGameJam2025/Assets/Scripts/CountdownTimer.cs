@@ -2,19 +2,19 @@ using TMPro;
 using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour {
-    [SerializeField] private int gameLengthMinutes = 30;
+    [SerializeField] public int gameLengthMinutes = 30;
     [SerializeField] private float gameSpeedMultiplier = 3;
     [Header("Scene Hooks")]
     [SerializeField] TextMeshPro timerTextComponent;
     [SerializeField] AudioManager audioManager;
 
-    private float timeLeft;
-    [SerializeField] private bool timerActive = false;
+    public float timeLeft;
+    [SerializeField] public bool timerActive = false;
 
     public delegate void TimerFinishedHandler(object sender);
     public static event TimerFinishedHandler TimerFinished;
 
-    private bool finalCountdown;
+    public bool finalCountdown;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
