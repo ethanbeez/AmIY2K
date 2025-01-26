@@ -114,12 +114,12 @@ public class Upgrade : MonoBehaviour {
         if (CurrentAutoSendUpgrade.level >= AutoSendLevels.Count) {
             nextAutoSendLevel.text = "MAX";
             nextAutoSendDescription.text = $"Every [{CurrentAutoSendUpgrade.sendIntervalSeconds}] seconds, a burst of [{CurrentAutoSendUpgrade.sendBurstCount}] emails is sent.";
-            nextMultiplierCost.text = "";
+            nextAutoSendCost.text = "";
             multiplierUpgradeButton.interactable = false;
         } else {
             nextAutoSendLevel.text = $"Lvl {CurrentAutoSendUpgrade.level + 1}.";
             nextAutoSendDescription.text = $"Every [{AutoSendLevels[CurrentAutoSendUpgrade.level].sendIntervalSeconds}] seconds, a burst of [{AutoSendLevels[CurrentAutoSendUpgrade.level].sendBurstCount}] emails is sent.";
-            nextMultiplierCost.text = $"{AutoSendLevels[CurrentAutoSendUpgrade.level].cost} Souls";
+            nextAutoSendCost.text = $"{AutoSendLevels[CurrentAutoSendUpgrade.level].cost} Souls";
             if (soulManager.GetStoredSouls() < AutoSendLevels[CurrentAutoSendUpgrade.level].cost) {
                 autoSendUpgradeButton.interactable = false;
             } else {
