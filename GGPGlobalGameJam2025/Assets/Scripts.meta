@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 4677edbe982d142be8a41451ede3f42b
+=======
 guid: 264b469552423d44ebd909f5fc46265d
+>>>>>>> origin/Isaacs-branch
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
