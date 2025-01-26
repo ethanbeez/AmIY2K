@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour {
     // This refers to the GameObject containing the onboard UI.
     [SerializeField] private GameObject onboardUI;
     [SerializeField] private AudioManager audioManager;
+    [SerializeField] private Upgrade upgrades;
 
     [Header("Text")]
     [SerializeField] private string endGameLameText = "C'mon, it's almost like you don’t want to watch the world burn.";
@@ -92,6 +93,7 @@ public class GameManager : MonoBehaviour {
         sendEmail.ResetState();
         writeEmail.ResetState();
         soulManager.ResetState();
+        upgrades.ResetState();
     }
 
     public void EndGame() {
