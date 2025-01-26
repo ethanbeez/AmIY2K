@@ -1083,6 +1083,21 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: b6786624e5fe9b64bac80866ba586f46, type: 3}
     name: Purchase
     source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: d3ab970394e6b594f875c0b2ad4473c6, type: 3}
+    name: Fairy1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f1abb7ad51137354882d4f5789981ebb, type: 3}
+    name: Fairy2
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b844d6c357cd012429e7ca4a20f4bd5e, type: 3}
+    name: Fairy3
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: accf003fc39197749b53a6e48dd8dded, type: 3}
+    name: Fairy4
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b844d6c357cd012429e7ca4a20f4bd5e, type: 3}
+    name: Fairy3
+    source: {fileID: 0}
 --- !u!4 &326685067
 Transform:
   m_ObjectHideFlags: 0
@@ -8653,6 +8668,7 @@ MonoBehaviour:
     cat pictures. '
   quipText: {fileID: 1027422630}
   countdownTimer: {fileID: 1237671825}
+  audioManager: {fileID: 326685066}
   gameQuipInterval: 30
 --- !u!114 &1145483549 stripped
 MonoBehaviour:

@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour {
 
     public void EndGame() {
         countdownTimer.Deactivate();
-        audioManager.PlaySoundClip("EndGame");
+        // audioManager.PlaySoundClip("EndGame");
     }
 
     /// <summary>

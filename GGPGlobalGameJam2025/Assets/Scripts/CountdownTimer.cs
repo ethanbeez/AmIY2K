@@ -52,7 +52,7 @@ public class CountdownTimer : MonoBehaviour {
     }
 
     public void Deactivate() {
-        CancelInvoke();
+        // CancelInvoke();
         timerActive = false;
     }
 

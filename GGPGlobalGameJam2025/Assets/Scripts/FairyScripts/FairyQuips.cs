@@ -12,12 +12,14 @@ public class FairyQuips : MonoBehaviour
     [Header("Scene Hooks")]
     public TMP_Text quipText; // Reference to the TMPro text component
     public CountdownTimer countdownTimer; // Reference to the CountdownTimer script
+    [SerializeField] private AudioManager audioManager;
 
     [Header("Timing Settings")]
     [SerializeField] private float gameQuipInterval = 10f; // Time interval for game quips, adjustable in the Inspector
 
     private int currentGameQuipIndex = 0; // Tracks the current index for gameQuips
     private bool isDisplayingFinalQuip = false; // Tracks if a final quip is being displayed
+    
 
     private void Start()
     {
@@ -63,6 +65,7 @@ public class FairyQuips : MonoBehaviour
             {
                 if (gameQuips.Count > 0)
                 {
+                    audioManager.PlaySoundClip("Fairy" + Random.Range(1, 6));
                     quipText.text = gameQuips[currentGameQuipIndex];
                     Debug.Log($"Displaying game quip: {gameQuips[currentGameQuipIndex]}");
 
