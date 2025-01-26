@@ -6,23 +6,37 @@ using UnityEngine;
 public class FairyQuips : MonoBehaviour
 {
     [Header("Quip Lists")]
-    public List<string> gameQuips;
-    public List<string> pauseQuips;
-    public List<string> finalQuips;
-    public string badQuip;  // Ending quip for <= 100 souls
-    public string midQuip; // Ending quip for 101–150 souls
-    public string goodQuip; // Ending quip for > 150 souls
+    public List<string> gameQuips;  // Quips displayed during gameplay
+    public List<string> pauseQuips; // Quips displayed when the game is paused
+    public List<string> finalQuips; // Quips displayed in the last 60 seconds
 
     [Header("Scene Hooks")]
     public TMP_Text quipText; // Reference to the TMPro text component
     public CountdownTimer countdownTimer; // Reference to the CountdownTimer script
-    public SoulManager soulManager; // Reference to the SoulManager script
 
-    private int currentGameQuipIndex = 0;
-    private bool isPaused = false;
+    [Header("Timing Settings")]
+    [SerializeField] private float gameQuipInterval = 10f; // Time interval for game quips, adjustable in the Inspector
+
+    private int currentGameQuipIndex = 0; // Tracks the current index for gameQuips
+    private bool isPaused = false; // Tracks whether the game is paused
 
     private void Start()
     {
+        if (quipText == null)
+        {
+            Debug.LogError("quipText is not assigned in the Inspector!");
+        }
+
+        if (countdownTimer == null)
+        {
+            Debug.LogError("countdownTimer is not assigned in the Inspector!");
+        }
+
+        if (gameQuips == null || gameQuips.Count == 0)
+        {
+            Debug.LogError("gameQuips list is empty or null!");
+        }
+
         StartCoroutine(DisplayGameQuips());
     }
 
@@ -31,11 +45,13 @@ public class FairyQuips : MonoBehaviour
         if (!isPaused)
         {
             float timeLeft = countdownTimer.timeLeft;
+            Debug.Log($"Time Left: {timeLeft}");
 
-            if (timeLeft <= 60f && quipText.text != finalQuips[0])
+            if (timeLeft <= 60f && finalQuips.Count > 0)
             {
-                // Show a random final quip when the timer is in the last 60 seconds
+                // Show a random final quip during the last 60 seconds
                 quipText.text = finalQuips[Random.Range(0, finalQuips.Count)];
+                Debug.Log($"Displaying final quip: {quipText.text}");
             }
 
             if (timeLeft <= 0f)
@@ -48,44 +64,48 @@ public class FairyQuips : MonoBehaviour
     public void PauseGame()
     {
         isPaused = true;
-        quipText.text = pauseQuips[Random.Range(0, pauseQuips.Count)];
+        if (pauseQuips.Count > 0)
+        {
+            quipText.text = pauseQuips[Random.Range(0, pauseQuips.Count)];
+            Debug.Log($"Game paused. Displaying pause quip: {quipText.text}");
+        }
     }
 
     public void ResumeGame()
     {
         isPaused = false;
+        Debug.Log("Game resumed.");
     }
 
     private void EndGame()
     {
         isPaused = true;
-
-        // Determine the ending quip based on total souls collected
-        int totalSouls = soulManager.GetTotalSouls();
-
-        if (totalSouls <= 100)
-        {
-            quipText.text = badQuip;
-        }
-        else if (totalSouls <= 150)
-        {
-            quipText.text = midQuip;
-        }
-        else
-        {
-            quipText.text = goodQuip;
-        }
-
-        Debug.Log($"Game Over. Total Souls: {totalSouls}. Ending Quip: {quipText.text}");
+        Debug.Log("Game Over. Timer has ended.");
+        // You can add additional logic here for game-over actions.
     }
 
     private IEnumerator DisplayGameQuips()
     {
-        while (countdownTimer.timeLeft > 60f)
+        Debug.Log("DisplayGameQuips started");
+
+        while (countdownTimer != null && countdownTimer.timeLeft > 60f)
         {
-            quipText.text = gameQuips[currentGameQuipIndex];
-            currentGameQuipIndex = (currentGameQuipIndex + 1) % gameQuips.Count;
-            yield return new WaitForSeconds(180f); // Wait for 3 minutes
+            if (gameQuips.Count > 0)
+            {
+                quipText.text = gameQuips[currentGameQuipIndex];
+                Debug.Log($"Displaying game quip: {gameQuips[currentGameQuipIndex]}");
+
+                // Cycle to the next quip
+                currentGameQuipIndex = (currentGameQuipIndex + 1) % gameQuips.Count;
+            }
+            else
+            {
+                Debug.LogError("gameQuips list is empty or null!");
+            }
+
+            yield return new WaitForSeconds(gameQuipInterval); // Use adjustable interval
         }
+
+        Debug.Log("DisplayGameQuips stopped because timeLeft <= 60f");
     }
 }

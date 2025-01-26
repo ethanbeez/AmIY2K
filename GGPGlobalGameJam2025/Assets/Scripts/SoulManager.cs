@@ -139,4 +139,10 @@ public class SoulManager : MonoBehaviour {
     public int GetStoredSouls() {
         return soulsStored;
     }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        Debug.Log("SoulManager initialized and marked as DontDestroyOnLoad.");
+    }
 }

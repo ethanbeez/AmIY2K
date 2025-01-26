@@ -9,7 +9,7 @@ public class CountdownTimer : MonoBehaviour {
     [SerializeField] AudioManager audioManager;
 
     public float timeLeft;
-    [SerializeField] public bool timerActive = false;
+    [SerializeField] public bool timerActive = true;
 
     public delegate void TimerFinishedHandler(object sender);
     public static event TimerFinishedHandler TimerFinished;
@@ -20,6 +20,7 @@ public class CountdownTimer : MonoBehaviour {
     void Start() {
         timeLeft = gameLengthMinutes * 60;
         finalCountdown = false;
+        timerActive = true;
     }
 
     // Update is called once per frame
