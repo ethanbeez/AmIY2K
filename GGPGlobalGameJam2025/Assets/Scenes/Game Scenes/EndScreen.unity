@@ -1726,7 +1726,10 @@ MonoBehaviour:
   midQuip: Not bad, keep it up!
   goodQuip: Excellent work, superstar!
   quipText: {fileID: 2033506460}
-  soulManagerObjectName: SoulManagers
+  goodTitle: {fileID: 20194105}
+  midTitle: {fileID: 784671418}
+  badTitle: {fileID: 1911211031}
+  displayResults: {fileID: 86298149}
 --- !u!4 &1150538564
 Transform:
   m_ObjectHideFlags: 0

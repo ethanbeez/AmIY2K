@@ -16,4 +16,10 @@ public class DisplayResults : MonoBehaviour
         int totalEmails = PlayerPrefs.GetInt("TotalEmailsSent", 0);
         totalEmailsText.text = $"{totalEmails}";
     }
+
+    // Public method to get the total souls count as an integer
+    public int GetTotalSouls()
+    {
+        return int.Parse(totalSoulsText.text); // Converts the displayed text back to an integer
+    }
 }

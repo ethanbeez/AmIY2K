@@ -4,69 +4,58 @@ using UnityEngine;
 public class EndQuips : MonoBehaviour
 {
     [Header("Quips")]
-    [SerializeField] private string badQuip = "You can do better next time!";  // Quip for low performance
-    [SerializeField] private string midQuip = "Not bad, keep it up!";          // Quip for average performance
-    [SerializeField] private string goodQuip = "Excellent work, superstar!";  // Quip for high performance
+    [SerializeField] private string badQuip = "You can do better next time!";
+    [SerializeField] private string midQuip = "Not bad, keep it up!";
+    [SerializeField] private string goodQuip = "Excellent work, superstar!";
 
     [Header("Scene Hooks")]
-    [SerializeField] private TMP_Text quipText; // Reference to the TMPro text component
+    [SerializeField] private TMP_Text quipText;
 
-    [SerializeField] private string soulManagerObjectName = "SoulManager"; // Name of the SoulManager GameObject
+    [Header("Title RectTransforms")]
+    [SerializeField] private RectTransform goodTitle;
+    [SerializeField] private RectTransform midTitle;
+    [SerializeField] private RectTransform badTitle;
 
-    private int totalSoulsCollected = 0; // Tracks souls collected dynamically
+    [Header("Display Results Reference")]
+    [SerializeField] private DisplayResults displayResults;
+
+    private int totalSoulsCollected = 0;
 
     private void Start()
     {
-        FetchSoulManagerData();
-        if (totalSoulsCollected == 0) // Double-check and try finding again
+        if (displayResults != null)
         {
-            Debug.LogWarning("SoulManager not found initially. Retrying...");
-            FetchSoulManagerData(); // Retry fetching the data
-        }
-
-        DisplayQuip();
-    }
-
-    private void FetchSoulManagerData()
-    {
-        GameObject soulManagerObject = GameObject.Find(soulManagerObjectName);
-        if (soulManagerObject == null)
-        {
-            Debug.LogError("SoulManager GameObject not found. Check the name in the scene and EndQuips.");
-        }
-
-        if (soulManagerObject != null)
-        {
-            SoulManager soulManager = soulManagerObject.GetComponent<SoulManager>();
-            if (soulManager != null)
-            {
-                totalSoulsCollected = soulManager.GetTotalSouls();
-                Debug.Log($"Total Souls Collected: {totalSoulsCollected}");
-            }
-            else
-            {
-                Debug.LogError("SoulManager component not found on the specified GameObject.");
-            }
+            totalSoulsCollected = displayResults.GetTotalSouls(); // Use the public method in DisplayResults
+            DisplayResultsData();
         }
         else
         {
-            Debug.LogError("SoulManager GameObject not found in the scene.");
+            Debug.LogError("DisplayResults reference is missing in EndQuips.");
         }
     }
 
-    public void DisplayQuip()
+    private void DisplayResultsData()
     {
+        // Hide all titles by default
+        goodTitle.gameObject.SetActive(false);
+        midTitle.gameObject.SetActive(false);
+        badTitle.gameObject.SetActive(false);
+
+        // Update quip text and title based on souls collected
         if (totalSoulsCollected <= 5)
         {
             quipText.text = badQuip;
+            badTitle.gameObject.SetActive(true);
         }
         else if (totalSoulsCollected > 5 && totalSoulsCollected <= 10)
         {
             quipText.text = midQuip;
+            midTitle.gameObject.SetActive(true);
         }
         else
         {
             quipText.text = goodQuip;
+            goodTitle.gameObject.SetActive(true);
         }
 
         Debug.Log($"Souls Collected: {totalSoulsCollected}, Quip: {quipText.text}");
