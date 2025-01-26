@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4531241461893485154}
-  - component: {fileID: 2322816862886107816}
-  - component: {fileID: 7633799851727406619}
   - component: {fileID: 4807402300476835919}
   - component: {fileID: 65757238368638788}
   - component: {fileID: 6523387020292817345}
@@ -42,83 +40,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!212 &2322816862886107816
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3702391585294996490}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 1522607506655802005, guid: 5c53b4047b4ba5c4685065d04fce2ff4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 9.92, y: 9.953905}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!95 &7633799851727406619
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3702391585294996490}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 864430a6b6d18444b8a13fcc5e73c59e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &4807402300476835919
 Rigidbody2D:
   serializedVersion: 5
@@ -199,9 +120,58 @@ MonoBehaviour:
   swirlDuration: 2
   suckDuration: 1
   image: {fileID: 1810429938261502882}
-  emptySprites: []
-  swirlSprites: []
-  suckedUpVariant1Sprites: []
+  emptySprites:
+  - {fileID: -7960001683414159561, guid: 3a323a43755a8af43b1b7ebd6b55ecf6, type: 3}
+  - {fileID: 3701390765664161015, guid: 3a323a43755a8af43b1b7ebd6b55ecf6, type: 3}
+  - {fileID: -477876809164345548, guid: 3a323a43755a8af43b1b7ebd6b55ecf6, type: 3}
+  - {fileID: -555865127874443162, guid: 3a323a43755a8af43b1b7ebd6b55ecf6, type: 3}
+  swirlSprites:
+  - {fileID: 8967299032402196248, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 4659617078938745146, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -6969058184258025403, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 5427450795558604250, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -1453356629078518890, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -7625245569874272009, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 8986802810852758945, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -9174330635502774151, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -4783252692620914351, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 2731821665836009737, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -4195854533476176664, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -7753505534494547295, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -4279271566090178456, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 6317946017112783970, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -9138949758214820201, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 368148496411713484, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 5281817848312036022, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -5532445673514545322, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -2530562132618352631, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 6668214571974239518, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 1278304120345170919, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -1702508405997059766, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 2334413540353241032, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 6955172661328200813, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 1759931717544278660, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -1458897389286014024, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -2192238308851038061, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -5572303896280338868, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -920817597973328939, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: -6365529938964171220, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  - {fileID: 4900891631283320130, guid: 306d614e8319c6949bab0cbfea1912d0, type: 3}
+  suckedUpVariant1Sprites:
+  - {fileID: -5049997623583672962, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: 8514688998445653918, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -6137020820147988169, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -7564980015179369128, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: 5953912929215373743, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: 5443319808967109739, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -3771663084367831727, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -6169571250304074927, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: 8673031279590372977, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: 246263225618047663, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -8352823668174227565, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: 6042004212486783331, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -8715515696083798992, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
+  - {fileID: -4211556780557900823, guid: c05b299c0529a034ab7ee7507e3b3f04, type: 3}
   suckedUpVariant2Sprites: []
 --- !u!222 &7878658340724244402
 CanvasRenderer:
@@ -231,7 +201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7355278968583312799, guid: feaa93e4cf720f54aa9c9996856b6d1b, type: 3}
+  m_Sprite: {fileID: -7960001683414159561, guid: 3a323a43755a8af43b1b7ebd6b55ecf6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

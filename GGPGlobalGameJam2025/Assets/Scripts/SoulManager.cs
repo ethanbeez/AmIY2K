@@ -12,7 +12,7 @@ public class SoulManager : MonoBehaviour {
     [SerializeField] private float capturedSouls;
 
     [Header("Scene Hooks")]
-    [SerializeField] private GameObject bubblePrefab;
+    [SerializeField] private List<GameObject> bubbles;
     [SerializeField] private GameObject bubbleContainer;
     [SerializeField] private TextMeshProUGUI soulsStoredCounter;
     [SerializeField] private TextMeshProUGUI soulsTotalCounter;
@@ -99,6 +99,7 @@ public class SoulManager : MonoBehaviour {
         int targetBubbleCount = (int) capturedSouls;
         int bubblesToSpawn = targetBubbleCount - spawnedBubbles.Count;
         for (int i = 0; i < bubblesToSpawn; i++) {
+            GameObject bubblePrefab = bubbles[Random.Range(0, bubbles.Count)];
             GameObject newBubble = Instantiate(bubblePrefab, bubbleContainer.transform, false);
             newBubble.transform.localPosition = GenerateBubbleSpawn();
             // newBubble.GetComponent<Rigidbody2D>().AddForce(new(Random.Range(-2, 2), Random.Range(-2, 2)));
