@@ -179,7 +179,7 @@ public class Upgrade : MonoBehaviour {
     private IEnumerator AutoSend() {
         while (true) {
             sendEmail.Send(CurrentAutoSendUpgrade.sendBurstCount);
-            yield return new WaitForSeconds(CurrentAutoSendUpgrade.sendIntervalSeconds);
+            yield return new WaitForSeconds(CurrentAutoSendUpgrade.sendIntervalSeconds / 3f);
         }
     }
 }
