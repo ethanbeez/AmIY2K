@@ -10827,6 +10827,8 @@ MonoBehaviour:
   - {fileID: 3702391585294996490, guid: 4794a38768fdcca43ba4532ce8409bb2, type: 3}
   - {fileID: 3702391585294996490, guid: 04286cfd56792bb4b8fb91a13f8eb592, type: 3}
   - {fileID: 3702391585294996490, guid: 52af5a240adaea34f97dd019883ef439, type: 3}
+  - {fileID: 3702391585294996490, guid: 8636be69b7266e548a301d1eb142677e, type: 3}
+  - {fileID: 3702391585294996490, guid: 153aea8dad142264292577492ce15d9e, type: 3}
   bubbleContainer: {fileID: 259765582}
   soulsStoredCounter: {fileID: 385466386}
   soulsTotalCounter: {fileID: 1226397652}
