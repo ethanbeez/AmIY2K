@@ -16,9 +16,13 @@ public class SoulManager : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI soulsStoredCounter;
     [SerializeField] private TextMeshProUGUI soulsTotalCounter;
     [SerializeField] private AudioManager audioManager;
+    [SerializeField] private Upgrade upgrades;
 
     private Dictionary<int, GameObject> spawnedBubbles;
-    
+
+    public delegate void SoulsCollectedHandler(object sender);
+    public static event SoulsCollectedHandler SoulsCollected;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         soulsStored = 0;
@@ -54,7 +58,7 @@ public class SoulManager : MonoBehaviour {
     /// current email has been sent.
     /// </summary>
     /// <param name="count">The number of times the current email has been sent</param>
-    public void HandleEmailSent(int count) {
+    public void HandleEmailSent(int count, int sentNow) {
         float returnRate;
         if (count < 20) {
             returnRate = 0.25f;
@@ -65,7 +69,7 @@ public class SoulManager : MonoBehaviour {
         } else {
             returnRate = 0.0313f;
         }
-        capturedSouls += returnRate;
+        capturedSouls += (float)returnRate * sentNow;
         Debug.Log($"Captured {capturedSouls} souls! {totalSouls} total souls right now!");
     }
 
@@ -80,6 +84,7 @@ public class SoulManager : MonoBehaviour {
         spawnedBubbles.Clear();
         UpdateSoulDisplay();
         audioManager.PlaySoundClip("CollectSouls");
+        SoulsCollected?.Invoke(this);
     }
 
     public void UpdateSoulDisplay() {
@@ -114,5 +119,24 @@ public class SoulManager : MonoBehaviour {
 
     public int GetTotalSouls() { 
         return totalSouls;
+    }
+
+    /// <summary>
+    /// Spend the parameter number of souls. If the player had enough souls stored to complete this operation,
+    /// return true; otherwise, return false.
+    /// </summary>
+    /// <param name="amount">The amount of souls to spend</param>
+    /// <returns>True if the souls could be spent; false otherwise</returns>
+    public bool SpendSouls(int amount) {
+        if (soulsStored - amount < 0) {
+            return false;
+        }
+        soulsStored -= amount;
+        UpdateSoulDisplay();
+        return true;
+    }
+
+    public int GetStoredSouls() {
+        return soulsStored;
     }
 }

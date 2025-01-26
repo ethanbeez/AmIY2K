@@ -1,17 +1,18 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; 
+using TMPro;
 
-public class SendEmail : MonoBehaviour
-{
+public class SendEmail : MonoBehaviour {
     private WriteEmail writeEmailScript; // Reference to the writeEmail script
     private SoulManager soulManager;    // Reference to the SoulManager script
     private int emailCount = 0;         // Tracks the number of emails sent
     private int totalEmailsSent = 0; // Tracks the total number of emails ever sent (added by Ethan 1/25)
     [SerializeField] private AudioManager audioManager; // Added by Ethan 1/25
+    [SerializeField] private Upgrade upgrades; // Added by Ethan 1/25
     [Header("UI Elements")]
     public TextMeshProUGUI countTextBox; // The text box where the number of sent emails is written.
+    public Button sendButton; // Added by Ethan 1/25
 
     void Start()
     {
@@ -48,14 +49,22 @@ public class SendEmail : MonoBehaviour
 
     private void OnSubmitButtonPressed()
     {
+        Send(upgrades.CurrentEmailMultiplierUpgrade.multiplier);
+    }
+
+    public void Send(int count) {
+        // Prevents auto-send upgrade from sending emails that haven't been written in case things go wrong.
+        if (!sendButton.interactable) {
+            return;
+        }
         // Increment the email count
-        emailCount++;
-        totalEmailsSent++;
+        emailCount += count;
+        totalEmailsSent += count;
         UpdateEmailCountDisplay();
-        Debug.Log($"You sent {emailCount} email(s).");
+        Debug.Log($"You sent {count} email(s).");
         countTextBox.text = $"{emailCount} Emails Sent";
         // Call the effectiveness function
-        Effectiveness();
+        Effectiveness(count);
         audioManager.PlaySoundClip("SendEmail");
     }
 
@@ -80,7 +89,7 @@ public class SendEmail : MonoBehaviour
         }
     }
 
-    private void Effectiveness()
+    private void Effectiveness(int count)
     {
         if (soulManager == null)
         {
@@ -89,7 +98,7 @@ public class SendEmail : MonoBehaviour
         }
 
         // Call HandleEmailSent on SoulManager to handle the captured souls
-        soulManager.HandleEmailSent(emailCount);
+        soulManager.HandleEmailSent(emailCount, count);
 
         // Log soul capture for debugging
         Debug.Log($"Effectiveness calculated for email count {emailCount}.");

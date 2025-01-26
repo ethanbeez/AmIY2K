@@ -17,6 +17,8 @@ public class WriteEmail : MonoBehaviour
     private string currentEmail; // Holds the currently selected email.
     private int currentLetterIndex = 0; // Tracks the current position in the email.
 
+    [SerializeField] private Upgrade upgrades;
+
     void Start()
     {
         // Ensure the submit button is initially disabled.
@@ -45,9 +47,11 @@ public class WriteEmail : MonoBehaviour
 
     private void RevealNextLetter()
     {
-        // Add the next letter to the text box.
-        emailTextBox.text += currentEmail[currentLetterIndex];
-        currentLetterIndex++;
+        // Add the next letter(s) to the text box.
+        for (int i = 0; i < upgrades.CurrentSpeedTypeUpgrade.wordsPerKeystroke && currentLetterIndex < currentEmail.Length; i++) {
+            emailTextBox.text += currentEmail[currentLetterIndex];
+            currentLetterIndex++;
+        }
 
         // Enable the submit button once the email is fully written.
         if (currentLetterIndex >= currentEmail.Length && submitButton != null)
