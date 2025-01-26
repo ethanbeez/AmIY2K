@@ -16,11 +16,13 @@ public class WriteEmail : MonoBehaviour
 
     private string currentEmail; // Holds the currently selected email.
     private int currentLetterIndex = 0; // Tracks the current position in the email.
+    private bool gamePaused;
 
     [SerializeField] private Upgrade upgrades;
 
     void Start()
     {
+        gamePaused = false;
         // Ensure the submit button is initially disabled.
         if (submitButton != null)
             submitButton.interactable = false;
@@ -39,10 +41,14 @@ public class WriteEmail : MonoBehaviour
     void Update()
     {
         // Check if any key is pressed and there are letters left to display.
-        if (Input.anyKeyDown && currentLetterIndex < currentEmail.Length)
+        if (CheckKeyInput() && currentLetterIndex < currentEmail.Length)
         {
             RevealNextLetter();
         }
+    }
+
+    private bool CheckKeyInput() { 
+        return Input.anyKeyDown && !(Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2)) && !Input.GetKeyDown(KeyCode.Escape);
     }
 
     private void RevealNextLetter()
@@ -81,5 +87,9 @@ public class WriteEmail : MonoBehaviour
     {
         emailTextBox.text = "";
         currentLetterIndex = 0;
+    }
+
+    public void SetGamePaused(bool paused) {
+        gamePaused = paused;
     }
 }

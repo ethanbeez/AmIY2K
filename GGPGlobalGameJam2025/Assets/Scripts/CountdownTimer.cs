@@ -63,6 +63,16 @@ public class CountdownTimer : MonoBehaviour {
     }
 
     public void FinalCountdown() {
-        audioManager.PlaySoundClip("FinalCountdownBeep");
+        if (timerActive) {
+            audioManager.PlaySoundClip("FinalCountdownBeep");
+        }
+    }
+
+    public void Pause() {
+        timerActive = false;
+    }
+
+    public void Unpause() {
+        timerActive = true;
     }
 }
