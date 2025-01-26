@@ -47,7 +47,7 @@ public class EndQuips : MonoBehaviour
             quipText.text = badQuip;
             badTitle.gameObject.SetActive(true);
         }
-        else if (totalSoulsCollected > 100 && totalSoulsCollected < 150)
+        else if (totalSoulsCollected > 100 && totalSoulsCollected <=200)
         {
             quipText.text = midQuip;
             midTitle.gameObject.SetActive(true);
