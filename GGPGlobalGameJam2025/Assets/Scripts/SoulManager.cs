@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SoulManager : MonoBehaviour {
     // The number of souls that the player currently posseses.
@@ -22,6 +23,7 @@ public class SoulManager : MonoBehaviour {
 
     public delegate void SoulsCollectedHandler(object sender);
     public static event SoulsCollectedHandler SoulsCollected;
+    public static SoulManager Instance { get; private set; }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -142,7 +144,23 @@ public class SoulManager : MonoBehaviour {
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
-        Debug.Log("SoulManager initialized and marked as DontDestroyOnLoad.");
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Keeps this object alive across scenes
+        }
+        else
+        {
+            Destroy(gameObject); // Prevents duplicates
+        }
     }
+
+
+
+    public void SaveTotalSouls()
+    {
+        PlayerPrefs.SetInt("TotalSouls", totalSouls);
+        PlayerPrefs.Save(); // Save the data to disk
+    }
+
 }

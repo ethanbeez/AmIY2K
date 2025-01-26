@@ -22,6 +22,12 @@ public class EndGame : MonoBehaviour
     // This method is called when the timer finishes
     private void OnTimerFinished(object sender)
     {
+        // Save total souls before transitioning
+        FindObjectOfType<SoulManager>()?.SaveTotalSouls();
+        // Scene Handler Script
+        FindObjectOfType<SendEmail>()?.SaveEmailData();
+
+        
         Debug.Log("Timer hit zero! Transitioning to EndScene...");
         SceneManager.LoadScene("EndScreen"); // Replace "EndScene" with the actual name of your scene
     }

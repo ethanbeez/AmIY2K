@@ -114,4 +114,11 @@ public class SendEmail : MonoBehaviour {
         totalEmailsSent = 0;
         countTextBox.text = "0 Emails Sent";
     }
+
+    public void SaveEmailData()
+{
+    PlayerPrefs.SetInt("TotalEmailsSent", totalEmailsSent);
+    PlayerPrefs.Save(); // Save data to disk
+}
+
 }
