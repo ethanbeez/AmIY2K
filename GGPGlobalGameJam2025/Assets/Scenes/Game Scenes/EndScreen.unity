@@ -1518,6 +1518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804158179}
   - component: {fileID: 804158180}
+  - component: {fileID: 804158182}
   m_Layer: 0
   m_Name: fairytransparent_0
   m_TagString: Untagged
@@ -1595,6 +1596,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &804158182
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804158178}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a39e0778b978ab94b8b37dbe3f0d7619, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &858390874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,6 +2320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1150538564}
   - component: {fileID: 1150538563}
+  - component: {fileID: 1150538565}
   m_Layer: 0
   m_Name: FairyManager
   m_TagString: Untagged
@@ -2339,6 +2363,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150538565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150538562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50213cd9c42024cbf95d295f570b8308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fairyAnimator: {fileID: 804158182}
+  lameAnimation: {fileID: 7400000, guid: 32a73c217c31f034eb50cba14c5b6131, type: 2}
+  havocAnimation: {fileID: 7400000, guid: f8d5af4c16c0fca42935b17b59ab7e7d, type: 2}
+  mayhemAnimation: {fileID: 7400000, guid: b268e8347ef90fb498af7aa708cc35ae, type: 2}
+  displayResults: {fileID: 86298149}
 --- !u!1 &1194748912
 GameObject:
   m_ObjectHideFlags: 0
