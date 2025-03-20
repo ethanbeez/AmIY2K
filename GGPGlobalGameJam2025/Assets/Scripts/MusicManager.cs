@@ -30,7 +30,7 @@ public class MusicManager : MonoBehaviour
 
         if (currentBubbleCount == switchBubbleCount)
         {
-            layerOn.TransitionTo(2f);
+            layerOn.TransitionTo(5f);
         }
 
     }
